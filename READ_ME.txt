@@ -1,2 +1,2 @@
 Libraries to import:
-math
+numpy as np
