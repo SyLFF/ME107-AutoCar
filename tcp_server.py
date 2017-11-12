@@ -3,6 +3,7 @@ import RPi.GPIO as GPIO
 import video_dir
 import car_dir
 import motor
+import frequency_sweep
 from socket import *
 from time import ctime          # Import necessary modules   
 
@@ -34,7 +35,11 @@ while True:
 	tcpCliSock, addr = tcpSerSock.accept() 
 	print '...connected from :', addr     # Print the IP address of the client connected with the server.
 
+	cur_time = 0
 	while True:
+		motor.forward()
+		cur_time += 1
+		car_dir.turn(frequency_sweep.determine_steering_angle(cur_time))
 		data = ''
 		data = tcpCliSock.recv(BUFSIZ)    # Receive data sent from the client. 
 		# Analyze the command received and control the car accordingly.
