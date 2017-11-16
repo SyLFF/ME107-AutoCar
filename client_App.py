@@ -6,7 +6,7 @@ from socket import *      # Import necessary modules
 ctrl_cmd = ['forward', 'backward', 'left', 'right', 'stop', 'read cpu_temp', 'home', 'distance', 'x+', 'x-', 'y+', 'y-', 'xy_home']
 
 top = Tk()   # Create a top window
-top.title('Sunfounder Raspberry Pi Smart Video Car')
+top.title('ME107 Roll Car Group')
 
 HOST = '172.20.10.10'    # Server(Raspberry Pi) IP address
 PORT = 21567
@@ -73,6 +73,24 @@ def quit_fun(event):
 	tcpCliSock.send('stop')        # stop server
 	tcpCliSock.close()             # close local client
 
+
+# =============================================================================
+#Functions made by Keenan to facilitate transer from different control modes
+# =========================================================================
+def manual_control(event):
+    print('Now in Manual Control')
+    tcpCliSock.send('manual')
+
+def vision_automatic(event):
+	print('Start vision controlled automatic run')
+    tcpCliSock.send('vis')
+
+def magnetic_automatic(event):
+	print('Start magnetic controlled run')
+    tcpCliSock.send('mag')
+
+
+
 # =============================================================================
 # Create buttons
 # =============================================================================
@@ -107,6 +125,27 @@ Btn2.bind('<ButtonRelease-1>', stop_fun)
 Btn3.bind('<ButtonRelease-1>', stop_fun)
 Btn4.bind('<ButtonRelease-1>', quit_fun)
 Btn5.bind('<ButtonRelease-1>', home_fun)
+
+#==========================================================================
+#==========================================================================
+#============       These are the buttons that Keenan created
+#==========================================================================
+#==========================================================================
+
+controlVar = IntVar()
+
+manualButton = Radiobutton(top, text="Manual Control", padx = 20, variable=controlVar, value='manual')
+magButton = Radiobutton(top, text="Magnetic Auto", padx = 20, variable=controlVar, value='magnetic')
+visualButton = Radiobutton(top, text="Vision Auto", padx = 20, variable=controlVar, value='vision')
+
+manualButton.grid(row=4, column=4)
+magButton.grid(row=5, column=4)
+visualButton.grid(row=6, column=4)
+
+manualButton.bind('<ButtonPress-1>', manual_control)
+magButton.bind('<ButtonPress-1>', magnetic_automatic)
+visualButton.bind('<ButtonPress-1>', vision_automatic)
+
 
 # =============================================================================
 # Create buttons
