@@ -38,7 +38,13 @@ def volt2dist_left(voltage):
     return left
 
 def conv2err(x1, x2):
-    return (np.power(x1, 2) - numpy.power(x2,2)) / (2 * sens_dist)
+    delta = (np.power(x1, 2) - numpy.power(x2,2)) / (2 * sens_dist)
+    y = np.sqrt(np.power(x1, 2) - np.power(sens_dist/2 + delta, 2))
+    des_alpha = np.atan2(y/delta)
+    err = des_alpha - prev_alpha
+    prev_alpha = des_alpha
+    return err
+
 # what is thiserror supposed to be?  Is it the erorr in the heading angle for the car?
 # I'm supposing that it's the error in the heading angle for the car, and if it's not,
 # then we can convert this function to be exactly that.
@@ -49,6 +55,7 @@ def conv2err(x1, x2):
 
 motor.setSpeed(40)
 SampleTime = 1/60
+prev_alpha = 0
 
 while(True):
     raw_vals = ser.readline()
