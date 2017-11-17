@@ -1,45 +1,40 @@
-'''
-%% Clear Workspace
-clear, clc
-%% Discrete State Space Model
-C = [1 0];
-D  = 0;
-%Ad = [0.999999999999999,20.0000000000003;5.51209569895417e-07,0.361661728228695];
-%Bd = [-2.91801628164788e-16;0.000559213179912614];
-Ad = [0.999999506241886,0.0202753749834943;-0.000429507455155225,0.436436058875644];
-Bd = [0.000153624030679276;0.457408053609279];
-Ts = .02 % 20 ms sample time
+import numpy as np 
+import scipy.linalg
+from __future__ import division, print_function
 
-Kd = [24.4454174931646 0.815490685544169] % LQR gain for state feedback
-%% Steady State error
+def lqr(A, B, Q, R):
+	"""Solve the continuous time lqr controller.
+	 
+	dx/dt = A x + B u
+	 
+	cost = integral x.T*Q*x + u.T*R*u
+	"""
+ 
+	#first, try to solve the ricatti equation
+	X = np.matrix(scipy.linalg.solve_continuous_are(A, B, Q, R))
+	 
+	#compute the LQR gain
+	K = np.matrix(scipy.linalg.inv(R)*(B.T*X))
+	 
+	eigVals, eigVecs = scipy.linalg.eig(A-B*K)
+	 
+	return K, X, eigVals
 
-s = ss(Ad-Bd*Kd,Bd,C,D,Ts);
-SSerror = abs(1-dcgain(s))
-%% Integral Control Design
-
-% Integral State Space Model
-
-Cext = [C 0];
-Aext = [Ad [0; 0]; -C 0];
-Bext = [Bd; 0];
-
-%% LQR for Integral Gains
-N = 10;
-Kidarray = [];
-Qtheta = logspace(-1,log10(10),N);
-Qomega = Qtheta;
-Qe = Qtheta;
-goodindx = zeros(0,2);
-count = 1;
-for i = 1:N
-    for j = 1:N
-        for k = 1:N
-        Q = diag([Qtheta(i) Qomega(j) Qe(k)]);
-        R = 1;
-        [Kd,~,lambda] = dlqr(Aext,Bext,Q,R);
-        KIdarray(:,count) = Kd;
-        count = count + 1;
-        end
-    end
-end
-'''
+def dlqr(A,B,Q,R):
+	"""Solve the discrete time lqr controller.
+	 
+	 
+	x[k+1] = A x[k] + B u[k]
+	 
+	cost = sum x[k].T*Q*x[k] + u[k].T*R*u[k]
+	"""
+ 
+	#first, try to solve the ricatti equation
+	X = np.matrix(scipy.linalg.solve_discrete_are(A, B, Q, R))
+	 
+	#compute the LQR gain
+	K = np.matrix(scipy.linalg.inv(B.T*X*B+R)*(B.T*X*A))
+	 
+	eigVals, eigVecs = scipy.linalg.eig(A-B*K)
+	 
+	return K, X, eigVals
