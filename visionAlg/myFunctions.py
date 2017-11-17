@@ -2,6 +2,8 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
+from scipy.misc import derivative
+import control
 import time
 
 """ u(t) = Kp * e(t) + Ki \int_{0}^{t} + Kd {de}/{dt} """
@@ -117,3 +119,54 @@ class PID:
 
 		u = kp * error + ki * errorSum + kd * errordt
 		prevError = error
+
+def distanceCalc(x1, x2, y1, y2):
+	distance = sqrt( (x2 - x1)**2 + (y2 - y1)**2 )
+	return distance
+
+def gradCalc2d(x1, x2, y1, y2):
+	gradient = (y2-y1)/(x2-x1)
+   	return gradient
+
+def angle(x1, y1, x2, y2, x3, y3, x4, y4):
+   	v1 = [(x2 - x1), (y2 - y1)]
+   	v2 = [(x4 - x3), (y4 - y3)]
+   	dot = np.dot(v1, v2)
+
+   	norm1 = np.linalg.norm(v1)
+   	norm2 = np.linalg.norm(v2)
+
+   	cos = dot / (norm1 * norm2)
+   	# in radians
+   	angle = np.arccos(cos)
+
+
+def errorCalc2(image, centroidArray):
+		
+	# fit curve 
+	fit = np.polyfit(centroidArray[:, 0], centroidArray[:, 1], 3)
+	# current state = [alpha, x] based on previous point
+		# alpha0 = previous centroid to current geometric center 
+	rows, columns = image.shape
+	geometricCenter = [columns / 2, rows[-1]]
+	currX = geometricCenter
+
+	currAlpha = angle(centroidArray[10], centroidArray[10], prevCentroid[0], prevCentroid[1], 
+		prevCentroid[0], prevCentroid[1], columns[-1], geometricCenter[1])
+
+	der = np.polyder(fit)
+
+	refAlpha = []
+	refX = []
+	errorAlpha = []
+	errorX = []
+	for i in range(0, len(centroidArray)):
+		refAlpha[i] = der(centroidArray[i])
+		refX = centroidArray[i]
+
+		errorAlpha = refAlpha - currAlpha
+		errorX = refX - currX
+
+	errorArray = [errorAlpha, errorX]
+
+	return errorArray 

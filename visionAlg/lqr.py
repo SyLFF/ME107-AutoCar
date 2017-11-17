@@ -37,4 +37,8 @@ def dlqr(A,B,Q,R):
 	 
 	eigVals, eigVecs = scipy.linalg.eig(A-B*K)
 	 
+<<<<<<< HEAD
 	return K, X, eigVals
+=======
+	return K, X, eigVals
+>>>>>>> 8ebb5894af9a1cdb194718f8c3ea75df9be995ed
