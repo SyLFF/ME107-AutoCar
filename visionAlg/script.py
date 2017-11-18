@@ -5,6 +5,10 @@ from myFunctions import readyImage, splitImage, findCentroid, showRows, showCent
 cap = cv2.VideoCapture(0)
 cv2.namedWindow('frame')
 
+kp = 36
+ki = 0
+kd = 8.7
+
 dt = sampleTime
 
 prevError = 0
