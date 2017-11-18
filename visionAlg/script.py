@@ -27,6 +27,7 @@ while(True):
 	prevError = 0
 	
 	error = errorCalc(frame, centroidArray, sampleTime)
+	error = error[-1]
 
 	dt = sampleTime
 	errorSum += error*dt
