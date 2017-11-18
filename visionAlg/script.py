@@ -1,5 +1,7 @@
 import numpy as np 
 import cv2
+import time
+
 from myFunctions import readyImage, splitImage, findCentroid, showRows, showCentroids, errorCalc
 
 cap = cv2.VideoCapture(0)
@@ -9,6 +11,7 @@ kp = 36
 ki = 0
 kd = 8.7
 
+sampleTime = 1/60
 dt = sampleTime
 
 prevError = 0
@@ -40,3 +43,4 @@ while(True):
 
 	u = kp * error + ki * errorSum + kd * errordt
 	prevError = error
+	time.sleep(sampleTime)
