@@ -5,6 +5,9 @@ from myFunctions import readyImage, splitImage, findCentroid, showRows, showCent
 cap = cv2.VideoCapture(0)
 cv2.namedWindow('frame')
 
+dt = sampleTime
+
+prevError = 0
 while(True):
 	ret, frame = cap.read()
 
@@ -24,13 +27,11 @@ while(True):
 	cv2.waitKey(0)
 
 	# PID controller
-	prevError = 0
 	
 	error = errorCalc(frame, centroidArray, sampleTime)
 	error = error[-1]
 
-	dt = sampleTime
-	errorSum += error*dt
+	errorSum += error * dt
 	errordt = (error - prevError) / dt
 
 	u = kp * error + ki * errorSum + kd * errordt
