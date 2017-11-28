@@ -32,6 +32,13 @@ rbase = 120
 langle = np.pi/2-np.pi/6    # Angular limits for turning the car
 rangle = np.pi/2+np.pi/6
 
+cap = cv2.VideoCapture(0)
+cv2.namedWindow('frame')
+
+kp = 36
+ki = 0
+kd = 8.7
+
 sampleTime = .0166667
 dt = sampleTime
 
@@ -73,6 +80,12 @@ while(totalTime < 2500):
 
         motor.forward()
         car_dir.turn(int(Map(u, langle, rangle, lbase, rbase)))
+
+        prevError = error
+
+        motor.forward()
+        car_dir.turn(int(Map(np.pi/2 + u, 0, np.pi, 0, 255)))
+
         visData = open('visData.txt', 'a')
         visData.write(str(totalTime))
         visData.write(',')
@@ -83,4 +96,5 @@ while(totalTime < 2500):
         visData.write(str(u))
         visData.write('\n')
         visData.close()
+
         time.sleep(sampleTime)

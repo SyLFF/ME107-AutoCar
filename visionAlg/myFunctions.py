@@ -3,7 +3,6 @@ import cv2
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 from scipy.misc import derivative
-import control
 import time
 
 """ u(t) = Kp * e(t) + Ki \int_{0}^{t} + Kd {de}/{dt} """
@@ -18,7 +17,7 @@ def readyImage(frame):
 
 def splitImage(erodedImage, numRows):
 	height, width = erodedImage.shape
-	rowHeight = round(height / numRows)
+	rowHeight = int(round(height / numRows))
 
 	imRows = []
 	ycount = 0
@@ -28,7 +27,7 @@ def splitImage(erodedImage, numRows):
 	return imRows
 
 def findCentroid(erodedImage):
-	im2, contours, heirarchy = cv2.findContours(erodedImage, 1, 2)
+	contours, heirarchy = cv2.findContours(erodedImage, 1, 2)
 
 	if len(contours) != 0:
 		M = cv2.moments(contours[0])
@@ -42,23 +41,23 @@ def findCentroid(erodedImage):
 		return -1
 
 def showRows(image, numRows):
-	height, width = image.shape
-	rowHeight = round(height / numRows)
+	height, width, channels = image.shape
+	rowHeight = int(round(height / numRows))
 
 	for i in range(0, numRows):
 		image[rowHeight*i, :] = [0, 255, 0]
 
 def showCentroids(image, numRows, centroidArray):
-	height, width = image.shape
-	rowHeight = round(height / numRows)
+	height, width, channels = image.shape
+	rowHeight = int(round(height / numRows))
 
 	for i in range(0, numRows):
-		y = rowHeight*i + round((rowHeight / 2))
-		x = centroidArray[i]
+		y = int(rowHeight*i + round((rowHeight / 2)))
+		x = int(centroidArray[i])
 		cv2.circle(image, (x,y), 10, [0, 255, 0], -1)
 
 def errorCalc(image, centroidArray):
-	height, width = image.shape
+	height, width, channels = image.shape
 
 	errorArray = []
 	for i in range(0, len(centroidArray)):

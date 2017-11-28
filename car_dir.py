@@ -7,16 +7,16 @@ def Map(x, in_min, in_max, out_min, out_max):
 
 def setup(busnum=None):
 	global leftPWM, rightPWM, homePWM, pwm
-	leftPWM = 400
+	leftPWM = 350
 	homePWM = 450
-	rightPWM = 500
+	rightPWM = 550
 	offset =0
 	try:
 		for line in open('config'):
 			if line[0:8] == 'offset =':
 				offset = int(line[9:-1])
 	except:
-		print 'config error'
+		print('config error')
 	leftPWM += offset
 	homePWM += offset
 	rightPWM += offset
@@ -24,7 +24,7 @@ def setup(busnum=None):
 		pwm = servo.PWM()                  # Initialize the servo controller.
 	else:
 		pwm = servo.PWM(bus_number=busnum) # Initialize the servo controller.
-	pwm.frequency = 60
+	pwm.frequency = 50
 
 # ==========================================================================================
 # Control the servo connected to channel 0 of the servo control board, so as to make the 

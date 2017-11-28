@@ -1,6 +1,11 @@
-import numpy as np 
-import cv2
+import car_dir
+car_dir.setup()
+import motor
+motor.setup()
+motor.setSpeed(0)
 import time
+import numpy as np
+import cv2
 
 from myFunctions import readyImage, splitImage, findCentroid, showRows, showCentroids, errorCalc
 
@@ -11,11 +16,15 @@ kp = 36
 ki = 0
 kd = 8.7
 
-sampleTime = 1/60
+sampleTime = .0166667
 dt = sampleTime
 
+totalTime = 0
+
 prevError = 0
-while(True):
+while(totalTime < 2500):
+        totalTime += 1
+        
 	ret, frame = cap.read()
 
 	numRows = 8
@@ -43,4 +52,18 @@ while(True):
 
 	u = kp * error + ki * errorSum + kd * errordt
 	prevError = error
+
+	motor.forward()
+        car_dir.turn(int(Map(np.pi/2 + u, 0, np.pi, 0, 255)))
+        visData = open('visData.txt', 'a')
+        visData.write(str(totalTime))
+        visData.write(',')
+        visData.write(str(error))
+        visData.write(',')
+        visData.write(str(errordt))
+        visData.write(',')
+        visData.write(str(u))
+        visData.write(',')
+        visData.write(raw_vals)
+        visData.close()
 	time.sleep(sampleTime)
