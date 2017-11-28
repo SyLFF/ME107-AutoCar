@@ -12,6 +12,26 @@ from visionAlg.myFunctions import readyImage, splitImage, findCentroid, showRows
 def Map(x, in_min, in_max, out_min, out_max):
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 
+def saturate(x,ub,lb):
+    if x>ub:
+        return(ub)
+    elif x<lb:
+        return(lb)
+    else:
+        return(x)
+
+cap = cv2.VideoCapture(0)
+cv2.namedWindow('frame')
+
+kp = 1
+ki = 80
+kd = 0
+
+lbase = -70    # numeric values for the turn limits of the car (lbase = left rbase = right)
+rbase = 120
+langle = np.pi/2-np.pi/6    # Angular limits for turning the car
+rangle = np.pi/2+np.pi/6
+
 cap = cv2.VideoCapture(0)
 cv2.namedWindow('frame')
 
@@ -55,10 +75,17 @@ while(totalTime < 2500):
         errordt = (error - prevError) / dt
 
         u = kp * error + ki * errorSum + kd * errordt
+        u = saturate(u, rangle, langle)
+        prevError = error
+
+        motor.forward()
+        car_dir.turn(int(Map(u, langle, rangle, lbase, rbase)))
+
         prevError = error
 
         motor.forward()
         car_dir.turn(int(Map(np.pi/2 + u, 0, np.pi, 0, 255)))
+
         visData = open('visData.txt', 'a')
         visData.write(str(totalTime))
         visData.write(',')
@@ -69,4 +96,5 @@ while(totalTime < 2500):
         visData.write(str(u))
         visData.write('\n')
         visData.close()
-        # time.sleep(sampleTime)
+
+        time.sleep(sampleTime)
