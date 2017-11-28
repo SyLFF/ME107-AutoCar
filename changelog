@@ -1,0 +1,44 @@
+Change/Information Log:
+
+--------
+11/19/17:
+	a) Tested range of motion of front wheels
+		turns out the possible inputs for the car turning can
+		be mapped from -70 to 130.  Note that -70 implies
+		full turn to left and 130 to right, beyond that the motors
+		seem to stall.
+	b) Posit that we can ascribe the center of that (i.e. 30) to be pi/2
+		and work our way from there.
+	c) 130 appears to stress the motors a bit much for my liking, reducing
+		to 120
+	d) It appears that the -70 to 120 map provides us a decent +- 30 
+		degrees of motion in either direction about the vertical
+		so I'm going to proceed to map the angle from -pi/6 to pi/6.
+	e) (d) appears to work decently well, now we can proceed with
+		an understanding that the center (i.e. 25) is effectively 0
+		degrees (straight ahead for the car) and the other numbers
+		are angles as appropriate.
+	f) it appears the desired angle outputs 90 as the normal, shift the
+		map as appropriate (so pi/2-pi/6 to pi/2+pi/6)
+	g) developed saturation function so that we don't overdrive
+		our motors (called saturation, function defined within phys
+		plant model etc)
+	h) Will assign the following meanings to the variables to make sense
+		of it in my head (some of them may be repetitive, but
+		at least we will all have the same lexicon):
+			-des_alpha: Desired Steering Angle
+			-c_alpha: Current Steering angle
+			-error: error at time step k
+			-differror: d(error)/dt
+			-interror: sum(error,t)
+			-prevError: error at time step k-1
+		With the above lexicon, aim is to develop PID control based on
+		error defined within program
+	i) Given the definitions in (h) note that c_alpha (what was prev_alpha
+		in the prior code) should be set to the actual steering angle
+		of the car at time step k.
+		That is to say, if we were to have car_dir.turn(<some int>),
+		c_alpha should be the angle associated with that int value
+		as the steering correction is effectively isntantaneous as
+		compared with our sample time.
+	
