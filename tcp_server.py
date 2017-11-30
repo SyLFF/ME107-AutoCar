@@ -7,6 +7,9 @@ import frequency_sweep
 from socket import *
 from time import ctime          # Import necessary modules   
 
+import visualTeam
+import magneticTeam
+
 ctrl_cmd = ['forward', 'backward', 'left', 'right', 'stop', 'read cpu_temp', 'home', 'distance', 'x+', 'x-', 'y+', 'y-', 'xy_home']
 
 busnum = 1          # Edit busnum to 0, if you uses Raspberry Pi 1 or 0
