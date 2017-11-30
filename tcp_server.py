@@ -49,21 +49,25 @@ while True:
 		# Analyze the command received and control the car accordingly.
 		if not data:
 			break
+
 		if data[0:3] == 'mag':
-            controlState = 'magnetic'
+			controlState = 'magnetic'
+
         elif data[0:3] == 'vis':
             controlState = 'visual'
+
         elif data[0:6] == 'manual':
             controlState = 'manual'
 
         #Monitor the control state variable and react accordingly
         while controlState == 'magnetic':
             magneticTeam.main()
+
         while controlState == 'visual':
             visualTeam.main()
 
         #This is the default code that we downloaded
-        while controlState = 'manual'
+        while controlState = 'manual':
 			if data == ctrl_cmd[0]:
 				print 'motor moving forward'
 				motor.forward()
@@ -139,7 +143,6 @@ while True:
 
 			else:
 				print 'Command Error! Cannot recognize command: ' + data
-
 tcpSerSock.close()
 
 

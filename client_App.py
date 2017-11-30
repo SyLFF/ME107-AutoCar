@@ -8,7 +8,7 @@ ctrl_cmd = ['forward', 'backward', 'left', 'right', 'stop', 'read cpu_temp', 'ho
 top = Tk()   # Create a top window
 top.title('ME107 Roll Car Group')
 
-HOST = '172.20.10.10'    # Server(Raspberry Pi) IP address
+HOST = '172.20.10.11'    # Server(Raspberry Pi) IP address
 PORT = 21567
 BUFSIZ = 1024             # buffer size
 ADDR = (HOST, PORT)
@@ -83,11 +83,11 @@ def manual_control(event):
 
 def vision_automatic(event):
 	print('Start vision controlled automatic run')
-    tcpCliSock.send('vis')
+	tcpCliSock.send('vis')
 
 def magnetic_automatic(event):
 	print('Start magnetic controlled run')
-    tcpCliSock.send('mag')
+	tcpCliSock.send('mag')
 
 
 
