@@ -20,9 +20,6 @@ def saturate(x,ub,lb):
     else:
         return(x)
 
-cap = cv2.VideoCapture(0)
-cv2.namedWindow('frame')
-
 kp = 1
 ki = 80
 kd = 0
@@ -33,16 +30,12 @@ langle = np.pi/2-np.pi/6    # Angular limits for turning the car
 rangle = np.pi/2+np.pi/6
 
 cap = cv2.VideoCapture(0)
-cv2.namedWindow('frame')
-
-kp = 36
-ki = 0
-kd = 8.7
+# cv2.namedWindow('frame')
 
 sampleTime = .0166667
 dt = sampleTime
 
-motor.setSpeed(40)
+motor.setSpeed(55)
 totalTime = 0
 errorSum = 0
 prevError = 0
@@ -63,7 +56,7 @@ while(totalTime < 2500):
         showRows(frame, numRows)
         showCentroids(frame, numRows, centroidArray)
 
-        cv2.imshow('frame', frame)
+        # cv2.imshow('frame', frame)
         cv2.waitKey(1)
 
 	# PID controller
