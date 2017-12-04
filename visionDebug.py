@@ -31,7 +31,7 @@ rbase = 120
 langle = np.pi / 2 - np.pi / 6  # Angular limits for turning the car
 rangle = np.pi / 2 + np.pi / 6
 
-display = 0  # boolean to show whether display is connected
+display = 1  # boolean to show whether display is connected
 
 cap = cv2.VideoCapture(0)
 
@@ -45,58 +45,81 @@ motor.setSpeed(55)
 totalTime = 0
 errorSum = 0
 prevError = 0
-while (totalTime < 2500):
-    totalTime += 1
 
-    ret, frame = cap.read()
+time.sleep(1)
+car_dir.turn(10)
+time.sleep(1)
+car_dir.turn(20)
+time.sleep(1)
+car_dir.turn(30)
 
-    numRows = 8
-    processed = readyImage(frame)
-    imageRows = splitImage(processed, numRows)
 
-    centroidArray = []
-    for i in range(0, len(imageRows)):
-        xCentroid = findCentroid(imageRows[i])
-        centroidArray.append(xCentroid)
+# ret, frame = cap.read()
+# numRows = 8
+# processed = readyImage(frame)
+# imageRows = splitImage(processed, numRows)
+# centroidArray = []
+# for i in range(0, len(imageRows)):
+#     xCentroid = findCentroid(imageRows[i])
+#     centroidArray.append(xCentroid)
+# showRows(frame, numRows)
+# showCentroids(frame, numRows, centroidArray)
+# if display == 1:
+#          cv2.imshow('frame', frame)
+#          cv2.waitKey(1)
 
-    showRows(frame, numRows)
-    showCentroids(frame, numRows, centroidArray)
 
-    if display == 1:
-        cv2.imshow('frame', frame)
-        cv2.waitKey(1)
+# while (totalTime < 2500):
+#     totalTime += 1
+#
+#     ret, frame = cap.read()
+#
+#     numRows = 8
+#     processed = readyImage(frame)
+#     imageRows = splitImage(processed, numRows)
+#
+#     centroidArray = []
+#     for i in range(0, len(imageRows)):
+#         xCentroid = findCentroid(imageRows[i])
+#         centroidArray.append(xCentroid)
+#
+#     showRows(frame, numRows)
+#     showCentroids(frame, numRows, centroidArray)
+#
+#     if display == 1:
+#         cv2.imshow('frame', frame)
+#         cv2.waitKey(1)
+#
+#     # PID controller
+#
+#     error = errorCalc(frame, centroidArray)
+#     error = error[-1]
+#
+#     errorSum += error * dt
+#     errordt = (error - prevError) / dt
+#
+#     u = kp * error + ki * errorSum + kd * errordt
+#     u = saturate(u, rangle, langle)
+#     prevError = error
+#
+#     motor.forward()
+#     car_dir.turn(int(Map(u, langle, rangle, lbase, rbase)))
+#
+#     prevError = error
+#
+#     motor.forward()
+#     car_dir.turn(int(Map(np.pi / 2 + u, 0, np.pi, 0, 255)))
+#
+#     visData = open('visData.txt', 'a')
+#     visData.write(str(totalTime))
+#     visData.write(',')
+#     visData.write(str(error))
+#     visData.write(',')
+#     visData.write(str(errordt))
+#     visData.write(',')
+#     visData.write(str(u))
+#     visData.write('\n')
+#     visData.close()
+#
+#     time.sleep(sampleTime)
 
-    # PID controller
-
-    error = errorCalc(frame, centroidArray)
-    error = error[-1]
-
-    errorSum += error * dt
-    errordt = (error - prevError) / dt
-
-    u = kp * error + ki * errorSum + kd * errordt
-    u = saturate(u, rangle, langle)
-    prevError = error
-
-    motor.forward()
-    car_dir.turn(int(Map(u, langle, rangle, lbase, rbase)))
-
-    prevError = error
-
-    motor.forward()
-    car_dir.turn(int(Map(np.pi / 2 + u, 0, np.pi, 0, 255)))
-
-    visData = open('visData.txt', 'a')
-    visData.write(str(totalTime))
-    visData.write(',')
-    visData.write(str(error))
-    visData.write(',')
-    visData.write(str(errordt))
-    visData.write(',')
-    visData.write(str(u))
-    visData.write('\n')
-    visData.close()
-
-    time.sleep(sampleTime)
-
-motor.setSpeed(0)

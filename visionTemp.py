@@ -30,7 +30,7 @@ langle = np.pi/2-np.pi/6    # Angular limits for turning the car
 rangle = np.pi/2+np.pi/6
 
 cap = cv2.VideoCapture(0)
-# cv2.namedWindow('frame')
+cv2.namedWindow('frame')
 
 sampleTime = .0166667
 dt = sampleTime
@@ -56,11 +56,10 @@ while(totalTime < 2500):
         showRows(frame, numRows)
         showCentroids(frame, numRows, centroidArray)
 
-        # cv2.imshow('frame', frame)
+        cv2.imshow('frame', frame)
         cv2.waitKey(1)
 
-	# PID controller
-	
+        # PID controller
         error = errorCalc(frame, centroidArray)
         error = error[-1]
 
