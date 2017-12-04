@@ -20,18 +20,18 @@ def saturate(x,ub,lb):
     else:
         return(x)
 
-display = 0  # boolean to show whether display is connected
+display = 1  # boolean to show whether display is connected
 
-kp = 30
-ki = 0
-kd = 0
+kp = 25
+ki = 10
+kd = 0.018
 
-lbase = -70    # numeric values for the turn limits of the car (lbase = left rbase = right)
-rbase = 120
-ledge = -321   # edges of vision frame
-redge = 321
+lbase = -50    # numeric values for the turn limits of the car (lbase = left rbase = right)
+rbase = 100
 langle = np.pi/2-np.pi/6    # Angular limits for turning the car
 rangle = np.pi/2+np.pi/6
+ledge = -4000   # edges of vision frame
+redge = 4000
 
 cap = cv2.VideoCapture(0)
 if display == 1:
@@ -40,7 +40,7 @@ if display == 1:
 sampleTime = .0166667
 dt = sampleTime
 
-motor.setSpeed(35)
+motor.setSpeed(0)
 totalTime = 0
 errorSum = 0
 prevError = 0
@@ -48,7 +48,7 @@ while(totalTime < 300):
         totalTime += 1
         ret, frame = cap.read()
 
-        numRows = 4
+        numRows = 8
         processed = readyImage(frame)
         imageRows = splitImage(processed, numRows)
 
@@ -66,7 +66,7 @@ while(totalTime < 300):
 
         # PID controller
         error = errorCalc(frame, centroidArray)
-        error = error[2]
+        error = error[5]
         errorSum += error * dt
         errordt = (error - prevError) / dt
 
@@ -74,26 +74,21 @@ while(totalTime < 300):
         
         # u = saturate(u, rangle, langle)
 
-        # prevError = error
-        # motor.forward()
-        # print 'u2 is: ', u
-        # car_dir.turn(int(Map(u, langle, rangle, lbase, rbase)))
-
         prevError = error
         motor.forward()
-        print 'u is: ', u
+        # print 'u is: ', u
         # controlsignal = int(Map(np.pi/2 + u, 0, np.pi, 0, 255))
-        controlsignal = int(Map(u, ledge, redge, -50, 80))
+        controlsignal = int(Map(u, ledge, redge, lbase, rbase))
         print 'Control siganl is: ', controlsignal
         car_dir.turn(controlsignal)
 
-        visData = open('visData.txt', 'a')
+        visData = open('visData3.txt', 'a')
         visData.write(str(totalTime))
         visData.write(',')
         visData.write(str(error))
         visData.write(',')
-        visData.write(str(errordt))
-        visData.write(',')
+        # visData.write(str(errordt))
+        # visData.write(',')
         visData.write(str(u))
         visData.write('\n')
         visData.close()
