@@ -64,7 +64,7 @@ def saturate(x,ub,lb):
 
 # Uncomment delay if you want to run the car on the ground.
 car_dir.turn(25)
-time.sleep(1)
+time.sleep(3)
 
 tot_time = 0
 SampleTime = .01666667
@@ -102,7 +102,7 @@ while(tot_time < 200):
     testData = open('testdata.txt','a')
     testData.write(str('\n des_alpha: {}, \n error: {}, \n differror: {}, \n interror: {}, \n input_angle: {}'.format(des_alpha,error,differror,interror,c_alpha)))
     testData.close()
-    print('\n des_alpha: {}, \n error: {}, \n differror: {}, \n interror: {}, \n input_angle: {}'.format(des_alpha,error,differror,interror,c_alpha))
+#    print('\n des_alpha: {}, \n error: {}, \n differror: {}, \n interror: {}, \n input_angle: {}'.format(des_alpha,error,differror,interror,c_alpha))
     car_dir.turn(int(Map(input_angle,langle,rangle,lbase,rbase)))
     time.sleep(SampleTime)
 #    print(left_val_raw)

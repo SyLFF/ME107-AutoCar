@@ -21,11 +21,13 @@ def saturate(x,ub,lb):
         return(x)
 
 kp = 1
-ki = 80
+ki = 0
 kd = 0
 
 lbase = -70    # numeric values for the turn limits of the car (lbase = left rbase = right)
 rbase = 120
+ledge = -321   # edges of vision frame
+redge = 321
 langle = np.pi/2-np.pi/6    # Angular limits for turning the car
 rangle = np.pi/2+np.pi/6
 
@@ -35,7 +37,7 @@ cv2.namedWindow('frame')
 sampleTime = .0166667
 dt = sampleTime
 
-motor.setSpeed(55)
+motor.setSpeed(0)
 totalTime = 0
 errorSum = 0
 prevError = 0
@@ -61,22 +63,27 @@ while(totalTime < 2500):
 
         # PID controller
         error = errorCalc(frame, centroidArray)
-        error = error[-1]
-
+        error = error[7]
+        print 'error is: ', error
         errorSum += error * dt
         errordt = (error - prevError) / dt
 
         u = kp * error + ki * errorSum + kd * errordt
-        u = saturate(u, rangle, langle)
+        # print 'u1 is: ', u
+        # u = saturate(u, rangle, langle)
+
+        # prevError = error
+        # motor.forward()
+        # print 'u2 is: ', u
+        # car_dir.turn(int(Map(u, langle, rangle, lbase, rbase)))
+
         prevError = error
-
         motor.forward()
-        car_dir.turn(int(Map(u, langle, rangle, lbase, rbase)))
-
-        prevError = error
-
-        motor.forward()
-        car_dir.turn(int(Map(np.pi/2 + u, 0, np.pi, 0, 255)))
+        print 'u2 is: ', u
+        # controlsignal = int(Map(np.pi/2 + u, 0, np.pi, 0, 255))
+        controlsignal = int(Map(u, ledge, redge, -255, 255))
+        print 'Control siganl is: ', controlsignal
+        car_dir.turn(controlsignal)
 
         visData = open('visData.txt', 'a')
         visData.write(str(totalTime))

@@ -10,7 +10,6 @@ import time
 def readyImage(frame):
 	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 	ret, thresh = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
-	thresh = (255 - thresh)
 	kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (9, 9))
 	eroded = cv2.erode(thresh, kernel)
 	return eroded

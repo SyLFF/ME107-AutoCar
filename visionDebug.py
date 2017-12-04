@@ -41,17 +41,24 @@ if display == 1:
 sampleTime = .0166667
 dt = sampleTime
 
-motor.setSpeed(55)
+motor.setSpeed(0)
 totalTime = 0
 errorSum = 0
 prevError = 0
 
 time.sleep(1)
-car_dir.turn(10)
+car_dir.turn(100)
 time.sleep(1)
-car_dir.turn(20)
+car_dir.turn(0)
 time.sleep(1)
-car_dir.turn(30)
+car_dir.turn(80)
+time.sleep(1)
+car_dir.turn(0)
+time.sleep(1)
+car_dir.turn(60)
+time.sleep(1)
+car_dir.turn(0)
+
 
 
 # ret, frame = cap.read()
