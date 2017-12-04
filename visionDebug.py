@@ -1,16 +1,14 @@
 import car_dir
 
-car_dir.setup()
 import motor
-
-motor.setup()
-motor.setSpeed(0)
 import time
 import numpy as np
 import cv2
-
 from visionAlg.myFunctions import readyImage, splitImage, findCentroid, showRows, showCentroids, errorCalc
 
+car_dir.setup()
+motor.setup()
+motor.setSpeed(0)
 
 def Map(x, in_min, in_max, out_min, out_max):
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
@@ -24,7 +22,6 @@ def saturate(x, ub, lb):
     else:
         return (x)
 
-
 kp = 1
 ki = 80
 kd = 0
@@ -34,8 +31,12 @@ rbase = 120
 langle = np.pi / 2 - np.pi / 6  # Angular limits for turning the car
 rangle = np.pi / 2 + np.pi / 6
 
+display = 0  # boolean to show whether display is connected
+
 cap = cv2.VideoCapture(0)
-# cv2.namedWindow('frame')
+
+if display == 1:
+    cv2.namedWindow('frame')
 
 sampleTime = .0166667
 dt = sampleTime
@@ -61,8 +62,9 @@ while (totalTime < 2500):
     showRows(frame, numRows)
     showCentroids(frame, numRows, centroidArray)
 
-    # cv2.imshow('frame', frame)
-    cv2.waitKey(1)
+    if display == 1:
+        cv2.imshow('frame', frame)
+        cv2.waitKey(1)
 
     # PID controller
 
