@@ -20,7 +20,9 @@ def saturate(x,ub,lb):
     else:
         return(x)
 
-kp = 1
+display = 0  # boolean to show whether display is connected
+
+kp = 30
 ki = 0
 kd = 0
 
@@ -32,21 +34,21 @@ langle = np.pi/2-np.pi/6    # Angular limits for turning the car
 rangle = np.pi/2+np.pi/6
 
 cap = cv2.VideoCapture(0)
-cv2.namedWindow('frame')
+if display == 1:
+    cv2.namedWindow('frame')
 
 sampleTime = .0166667
 dt = sampleTime
 
-motor.setSpeed(0)
+motor.setSpeed(35)
 totalTime = 0
 errorSum = 0
 prevError = 0
-while(totalTime < 2500):
+while(totalTime < 300):
         totalTime += 1
-        
         ret, frame = cap.read()
 
-        numRows = 8
+        numRows = 4
         processed = readyImage(frame)
         imageRows = splitImage(processed, numRows)
 
@@ -58,18 +60,18 @@ while(totalTime < 2500):
         showRows(frame, numRows)
         showCentroids(frame, numRows, centroidArray)
 
-        cv2.imshow('frame', frame)
-        cv2.waitKey(1)
+        if display == 1:
+            cv2.imshow('frame', frame)
+            cv2.waitKey(1)
 
         # PID controller
         error = errorCalc(frame, centroidArray)
-        error = error[7]
-        print 'error is: ', error
+        error = error[2]
         errorSum += error * dt
         errordt = (error - prevError) / dt
 
         u = kp * error + ki * errorSum + kd * errordt
-        # print 'u1 is: ', u
+        
         # u = saturate(u, rangle, langle)
 
         # prevError = error
@@ -79,9 +81,9 @@ while(totalTime < 2500):
 
         prevError = error
         motor.forward()
-        print 'u2 is: ', u
+        print 'u is: ', u
         # controlsignal = int(Map(np.pi/2 + u, 0, np.pi, 0, 255))
-        controlsignal = int(Map(u, ledge, redge, -255, 255))
+        controlsignal = int(Map(u, ledge, redge, -50, 80))
         print 'Control siganl is: ', controlsignal
         car_dir.turn(controlsignal)
 
@@ -97,3 +99,5 @@ while(totalTime < 2500):
         visData.close()
 
         time.sleep(sampleTime)
+
+motor.setSpeed(0)

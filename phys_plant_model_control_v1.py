@@ -19,7 +19,7 @@ def volt2dist_right(voltage):
         voltage = 1030 - voltage;
     voltage -= 515;
     if (voltage < 5):
-        return 2.5
+        return 1.5
     right = np.log((voltage - 3.571) / 277.4) / -3.541 # This may need to casted to a float
     if (right < 0):
         right = 0
@@ -30,7 +30,7 @@ def volt2dist_left(voltage):
         voltage = 1030 - voltage
     voltage -= 515
     if (voltage < 5):
-        return 2.5;
+        return 1.5;
     left = -np.log((voltage - .6978) / .04688) / 2.523 + 3 # This may need to be casted to a float
     if (left < 0):
         left = 0
@@ -38,15 +38,21 @@ def volt2dist_left(voltage):
 
 def conv2err(x1, x2, tot_time):
     delta = (np.power(x1, 2) - np.power(x2,2)) / (2 * sens_dist)
-##    print('penis')
-##    print(x1)
+    print(x1)
+    print(x2)
 ##    if (tot_time % 5 == 0):
+##        print("delta")
 ##        print(delta)
     if (np.power(sens_dist/2 + delta, 2) > np.power(x1, 2)):
+        print("Hello")
         y = np.sqrt(-np.power(x1, 2) + np.power(sens_dist/2 + delta, 2))
     else :
+        print("no hello")
         y = np.sqrt(np.power(x1, 2) - np.power(sens_dist/2 + delta, 2))
-    des_alpha = np.arctan2(y,delta)
+    if (delta < 0):
+        des_alpha = np.arctan(y/-delta)
+    else :
+        des_alpha = np.pi - np.arctan(y/delta)
     return des_alpha
 
 def saturate(x,ub,lb):
@@ -64,29 +70,35 @@ def saturate(x,ub,lb):
 
 # Uncomment delay if you want to run the car on the ground.
 car_dir.turn(25)
-time.sleep(3)
+time.sleep(5)
 
 tot_time = 0
+start_time = 0
 SampleTime = .01666667
-lbase = -70    # numeric values for the turn limits of the car (lbase = left rbase = right)
-rbase = 120
-langle = np.pi/2-np.pi/6    # Angular limits for turning the car
-rangle = np.pi/2+np.pi/6
+lbase = -75    # numeric values for the turn limits of the car (lbase = left rbase = right)
+rbase = 125
+langle = np.pi/2-np.pi/6-0.25   # Angular limits for turning the car
+rangle = np.pi/2+np.pi/6+0.25
 c_alpha = Map(25,lbase,rbase,langle,rangle)  # Initial car-heading, set at straight ahead, 90 degrees
 interror = 0
 # Gain
-Kp = 1 # used to be 36
-Kd = 0  # used to be -8.7
-Ki = 120
+Kp = 1.2 # used to be 1
+Kd = 0  # used to be 120
+Ki = 0
 # Parameters that may end up being tuned
 sens_dist = 3
 prevError = 0
-left_offset = 15
-right_offset = 16
-motor.setSpeed(55)
+left_offset = -22
+right_offset = -21
 print('Starting Loop')
 
-while(tot_time < 200):
+while(start_time<200):
+    start_time += 1
+    raw_vals = ser.readline()
+    time.sleep(SampleTime)
+motor.setSpeed(45)
+
+while(tot_time < 750):
     tot_time += 1
     raw_vals = ser.readline()
     split_vals = raw_vals.split(',')
@@ -97,59 +109,18 @@ while(tot_time < 200):
     differror = (error-prevError)/SampleTime
     interror += error*SampleTime
     input_angle = saturate(Kp*error + Kd*differror + Ki*interror+c_alpha,rangle,langle)
+#   if (abs(differror) < 16):
     c_alpha = input_angle
     prevError = error
-    testData = open('testdata.txt','a')
-    testData.write(str('\n des_alpha: {}, \n error: {}, \n differror: {}, \n interror: {}, \n input_angle: {}'.format(des_alpha,error,differror,interror,c_alpha)))
-    testData.close()
-#    print('\n des_alpha: {}, \n error: {}, \n differror: {}, \n interror: {}, \n input_angle: {}'.format(des_alpha,error,differror,interror,c_alpha))
     car_dir.turn(int(Map(input_angle,langle,rangle,lbase,rbase)))
+    testData = open('testdata.txt','a')
+    testData.write(str('\n \n current_time: {} \n des_alpha: {}, \n error: {}, \n differror: {}, \n interror: {}, \n input_angle: {}'.format(tot_time*SampleTime,des_alpha,error,differror,interror,c_alpha)))
+    testData.close()
+    print('\n des_alpha: {}, \n error: {}, \n differror: {}, \n interror: {}, \n input_angle: {} \n left_val_raw: {} \n right_val_raw: {}'.format(des_alpha,error,differror,interror,c_alpha,left_val_raw,right_val_raw))
+    print(tot_time)
+    
     time.sleep(SampleTime)
-#    print(left_val_raw)
-#    print(',')
-#    print(right_val_raw)
-#    print(',')
-#    print(des_alpha)
-#    print(',')
-#    print(err)
-#    print(',')
-#    prev_alpha = des_alpha
-##   if (tot_time % 5 == 0):
-##      print('left')
-##       print(left_val_raw)
-##       print('right')
-##       print(right_val_raw)
-#   prev_alpha = des_alpha
-#     Unless I'm mistaken, we have some sample speed associated with the Teensy (I believe
-#     you mentioned it was 60 Hz, I'm supposing that)
-#     Note that the output is the required steering angle for the car, so on top of the input calculated
-#     by the function, we need to have a control system that maps steering angle input to actual
-#     steering angle for the car, as I think that you mentioned that was a problem prior.
-#   print(SampleTime)
-#   if (tot_time % 5 == 0):
-#        print(err)
-#    prevError = err
-#    motor.forward()
-###    angle = float(Map(tot_time,0,rbase-lbase,langle,rangle))
-###    print(angle)
-###    print('---')
-###    print(tot_time)
-###    print('---')
-###    car_dir.turn(int(Map(satinput,langle,rangle,lbase,rbase)))
-#    print(des_alpha)
-#    time.sleep(SampleTime)
-#    magData = open('magData.txt', 'a')
-#    magData.write(str(tot_time))
-#    magData.write(',')
-#    magData.write(str(des_alpha))
-#    magData.write(',')
-#    magData.write(str(err))
-#    magData.write(',')
-#    magData.write(str(u))
-#    magData.write(',')
-#    magData.write(raw_vals)
-#    magData.close()
-#    time.sleep(SampleTime)
 
 motor.setSpeed(0)
+car_dir.turn(25)
 
