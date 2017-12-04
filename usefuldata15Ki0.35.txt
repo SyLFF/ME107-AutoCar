@@ -1,0 +1,4201 @@
+
+ 
+ current_time: 0.01666667 
+ des_alpha: 1.36281612411, 
+ error: -0.207980202685, 
+ differror: -12.4788096653, 
+ interror: -0.207980202685, 
+ input_angle: 1.31082107344
+ 
+ current_time: 0.03333334 
+ des_alpha: 1.35695450126, 
+ error: 0.0461334278237, 
+ differror: 15.2468147812, 
+ interror: -0.161846774861, 
+ input_angle: 1.29569478728
+ 
+ current_time: 0.05000001 
+ des_alpha: 1.41565814131, 
+ error: 0.119963354034, 
+ differror: 4.42979468666, 
+ interror: -0.0418834208274, 
+ input_angle: 1.38900260862
+ 
+ current_time: 0.06666668 
+ des_alpha: 1.41565814131, 
+ error: 0.026655532693, 
+ differror: -5.59846816076, 
+ interror: -0.0152278881344, 
+ input_angle: 1.4076628272
+ 
+ current_time: 0.08333335 
+ des_alpha: 1.57079632679, 
+ error: 0.163133499599, 
+ differror: 8.18867637662, 
+ interror: 0.147905611464, 
+ input_angle: 1.60624994085
+ 
+ current_time: 0.10000002 
+ des_alpha: 1.57079632679, 
+ error: -0.0354536140527, 
+ differror: -11.9152244361, 
+ interror: 0.112451997412, 
+ input_angle: 1.61369988729
+ 
+ current_time: 0.11666669 
+ des_alpha: 1.57079632679, 
+ error: -0.0429035604994, 
+ differror: -0.446996697404, 
+ interror: 0.0695484369124, 
+ input_angle: 1.59942863576
+ 
+ current_time: 0.13333336 
+ des_alpha: 1.57079632679, 
+ error: -0.0286323089693, 
+ differror: 0.856274920552, 
+ interror: 0.0409161279431, 
+ input_angle: 1.58798020247
+ 
+ current_time: 0.15000003 
+ des_alpha: 1.57079632679, 
+ error: -0.017183875677, 
+ differror: 0.686905860154, 
+ interror: 0.0237322522661, 
+ input_angle: 1.58082100266
+ 
+ current_time: 0.1666667 
+ des_alpha: 1.57079632679, 
+ error: -0.0100246758608, 
+ differror: 0.429551903061, 
+ interror: 0.0137075764053, 
+ input_angle: 1.57659644612
+ 
+ current_time: 0.18333337 
+ des_alpha: 1.57079632679, 
+ error: -0.00580011932793, 
+ differror: 0.25347334128, 
+ interror: 0.00790745707734, 
+ input_angle: 1.5741439487
+ 
+ current_time: 0.20000004 
+ des_alpha: 1.57079632679, 
+ error: -0.00334762190986, 
+ differror: 0.147149815654, 
+ interror: 0.00455983516748, 
+ input_angle: 1.57272703129
+ 
+ current_time: 0.21666671 
+ des_alpha: 1.57079632679, 
+ error: -0.0019307044996, 
+ differror: 0.0850150276125, 
+ interror: 0.00262913066787, 
+ input_angle: 1.57190959298
+ 
+ current_time: 0.23333338 
+ des_alpha: 1.57079632679, 
+ error: -0.00111326618372, 
+ differror: 0.0490462891439, 
+ interror: 0.00151586448416, 
+ input_angle: 1.57143820598
+ 
+ current_time: 0.25000005 
+ des_alpha: 1.57079632679, 
+ error: -0.000641879187827, 
+ differror: 0.0282832140967, 
+ interror: 0.000873985296331, 
+ input_angle: 1.57116640957
+ 
+ current_time: 0.26666672 
+ des_alpha: 1.57079632679, 
+ error: -0.000370082772498, 
+ differror: 0.0163077816582, 
+ interror: 0.000503902523832, 
+ input_angle: 1.57100970096
+ 
+ current_time: 0.28333339 
+ des_alpha: 1.43938957957, 
+ error: -0.131620121385, 
+ differror: -7.87500074177, 
+ interror: -0.131116218862, 
+ input_angle: 1.40666091511
+ 
+ current_time: 0.30000006 
+ des_alpha: 1.57079632679, 
+ error: 0.164135411688, 
+ differror: 17.7453284353, 
+ interror: 0.0330191928262, 
+ input_angle: 1.56593950312
+ 
+ current_time: 0.31666673 
+ des_alpha: 1.57079632679, 
+ error: 0.00485682367959, 
+ differror: -9.55671336915, 
+ interror: 0.0378760165058, 
+ input_angle: 1.5835672502
+ 
+ current_time: 0.3333334 
+ des_alpha: 1.41565814131, 
+ error: -0.167909108892, 
+ differror: -10.3659538811, 
+ interror: -0.130033092386, 
+ input_angle: 1.38693746987
+ 
+ current_time: 0.35000007 
+ des_alpha: 1.35695450126, 
+ error: -0.0299829686042, 
+ differror: 8.27556676213, 
+ interror: -0.16001606099, 
+ input_angle: 1.30394717678
+ 
+ current_time: 0.36666674 
+ des_alpha: 1.41565814131, 
+ error: 0.111710964536, 
+ differror: 8.5016342881, 
+ interror: -0.0483050964539, 
+ input_angle: 1.3875802611
+ 
+ current_time: 0.38333341 
+ des_alpha: 1.35695450126, 
+ error: -0.0306257598376, 
+ differror: -8.54020175439, 
+ interror: -0.0789308562915, 
+ input_angle: 1.33239127754
+ 
+ current_time: 0.40000008 
+ des_alpha: 1.41565814131, 
+ error: 0.0832668637684, 
+ differror: 6.83355604965, 
+ interror: 0.00433600747687, 
+ input_angle: 1.40884905755
+ 
+ current_time: 0.41666675 
+ des_alpha: 1.41565814131, 
+ error: 0.00680908375993, 
+ differror: -4.58746588301, 
+ interror: 0.0111450912368, 
+ input_angle: 1.41887801487
+ 
+ current_time: 0.43333342 
+ des_alpha: 1.4215884707, 
+ error: 0.00271045583395, 
+ differror: -0.245917626375, 
+ interror: 0.0138555470708, 
+ input_angle: 1.42616686659
+ 
+ current_time: 0.45000009 
+ des_alpha: 1.4215884707, 
+ error: -0.00457839589137, 
+ differror: -0.437331016053, 
+ interror: 0.00927715117938, 
+ input_angle: 1.42529331321
+ 
+ current_time: 0.46666676 
+ des_alpha: 1.57623327028, 
+ error: 0.150939957079, 
+ differror: 9.33109931203, 
+ interror: 0.160217108259, 
+ input_angle: 1.61721526247
+ 
+ current_time: 0.48333343 
+ des_alpha: 1.57623327028, 
+ error: -0.0409819921827, 
+ differror: -11.5153146527, 
+ interror: 0.119235116076, 
+ input_angle: 1.62206376013
+ 
+ current_time: 0.5000001 
+ des_alpha: 1.64401417966, 
+ error: 0.0219504195336, 
+ differror: 3.77594394778, 
+ interror: 0.14118553561, 
+ input_angle: 1.69123407517
+ 
+ current_time: 0.51666677 
+ des_alpha: 1.68876111637, 
+ error: -0.00247295880171, 
+ differror: -1.46540240704, 
+ interror: 0.138712576808, 
+ input_angle: 1.73755781413
+ 
+ current_time: 0.53333344 
+ des_alpha: 1.68876111637, 
+ error: -0.048796697763, 
+ differror: -2.77942378179, 
+ interror: 0.0899158790451, 
+ input_angle: 1.72511134381
+ 
+ current_time: 0.55000011 
+ des_alpha: 1.64401417966, 
+ error: -0.0810971641504, 
+ differror: -1.93802759564, 
+ interror: 0.00881871489464, 
+ input_angle: 1.65521044629
+ 
+ current_time: 0.56666678 
+ des_alpha: 1.64401417966, 
+ error: -0.0111962666282, 
+ differror: 4.19405301253, 
+ interror: -0.00237755173353, 
+ input_angle: 1.64430166322
+ 
+ current_time: 0.58333345 
+ des_alpha: 1.64401417966, 
+ error: -0.000287483556082, 
+ differror: 0.65452685342, 
+ interror: -0.00266503528961, 
+ input_angle: 1.64311016567
+ 
+ current_time: 0.60000012 
+ des_alpha: 1.64401417966, 
+ error: 0.000904013995755, 
+ differror: 0.0714898388123, 
+ interror: -0.00176102129385, 
+ input_angle: 1.64330742081
+ 
+ current_time: 0.61666679 
+ des_alpha: 1.68876111637, 
+ error: 0.0454536955608, 
+ differror: 2.67298035931, 
+ interror: 0.0436926742669, 
+ input_angle: 1.69950818281
+ 
+ current_time: 0.63333346 
+ des_alpha: 1.4215884707, 
+ error: -0.277919712106, 
+ differror: -19.4024005795, 
+ interror: -0.234227037839, 
+ input_angle: 1.36740097867
+ 
+ current_time: 0.65000013 
+ des_alpha: 1.57623327028, 
+ error: 0.208832291614, 
+ differror: 29.2051143822, 
+ interror: -0.0253947462243, 
+ input_angle: 1.54646187994
+ 
+ current_time: 0.6666668 
+ des_alpha: 1.35695450126, 
+ error: -0.189507378682, 
+ differror: -23.9003754377, 
+ interror: -0.214902124907, 
+ input_angle: 1.30068949541
+ 
+ current_time: 0.68333347 
+ des_alpha: 1.24115070425, 
+ error: -0.059538791164, 
+ differror: 7.79811369148, 
+ interror: -0.274440916071, 
+ input_angle: 1.15105026274
+ 
+ current_time: 0.70000014 
+ des_alpha: 1.24115070425, 
+ error: 0.0901004415083, 
+ differror: 8.97835216467, 
+ interror: -0.184340474562, 
+ input_angle: 1.167621494
+ 
+ current_time: 0.71666681 
+ des_alpha: 1.24115070425, 
+ error: 0.0735292102477, 
+ differror: -0.994273676786, 
+ interror: -0.110811264315, 
+ input_angle: 1.19501384071
+ 
+ current_time: 0.73333348 
+ des_alpha: 1.29949179346, 
+ error: 0.104477952746, 
+ differror: 1.85692417854, 
+ interror: -0.00633331156831, 
+ input_angle: 1.28682733914
+ 
+ current_time: 0.75000015 
+ des_alpha: 1.35695450126, 
+ error: 0.0701271621252, 
+ differror: -2.06104702506, 
+ interror: 0.0637938505569, 
+ input_angle: 1.37226963274
+ 
+ current_time: 0.76666682 
+ des_alpha: 1.11625276365, 
+ error: -0.256016869093, 
+ differror: -19.5686379594, 
+ interror: -0.192223018536, 
+ input_angle: 1.07457639407
+ 
+ current_time: 0.78333349 
+ des_alpha: 1.1226026606, 
+ error: 0.0480262665294, 
+ differror: 18.2425844888, 
+ interror: -0.144196752007, 
+ input_angle: 1.06733117075
+ 
+ current_time: 0.80000016 
+ des_alpha: 1.24115070425, 
+ error: 0.173819533502, 
+ differror: 7.54759450884, 
+ interror: 0.0296227814951, 
+ input_angle: 1.23413672442
+ 
+ current_time: 0.81666683 
+ des_alpha: 1.24115070425, 
+ error: 0.00701397982692, 
+ differror: -10.0083312188, 
+ interror: 0.036636761322, 
+ input_angle: 1.25327217273
+ 
+ current_time: 0.8333335 
+ des_alpha: 1.29949179346, 
+ error: 0.0462196207315, 
+ differror: 2.35233798381, 
+ interror: 0.0828563820535, 
+ input_angle: 1.32386956511
+ 
+ current_time: 0.85000017 
+ des_alpha: 1.24115070425, 
+ error: -0.0827188608571, 
+ differror: -7.73630734805, 
+ interror: 0.000137521196432, 
+ input_angle: 1.24947072275
+ 
+ current_time: 0.86666684 
+ des_alpha: 1.29949179346, 
+ error: 0.050021070707, 
+ differror: 7.96439430097, 
+ interror: 0.0501585919035, 
+ input_angle: 1.31204519356
+ 
+ current_time: 0.88333351 
+ des_alpha: 1.29949179346, 
+ error: -0.0125534000955, 
+ differror: -3.75446749726, 
+ interror: 0.037605191808, 
+ input_angle: 1.3139089506
+ 
+ current_time: 0.90000018 
+ des_alpha: 1.35695450126, 
+ error: 0.0430455506593, 
+ differror: 3.3359363781, 
+ interror: 0.0806507424673, 
+ input_angle: 1.38087770606
+ 
+ current_time: 0.91666685 
+ des_alpha: 1.29949179346, 
+ error: -0.0813859125993, 
+ differror: -7.46588630234, 
+ interror: -0.000735170131996, 
+ input_angle: 1.30737307517
+ 
+ current_time: 0.93333352 
+ des_alpha: 1.29949179346, 
+ error: -0.00788128171373, 
+ differror: 4.41027697108, 
+ interror: -0.00861645184572, 
+ input_angle: 1.29726416349
+ 
+ current_time: 0.95000019 
+ des_alpha: 1.29949179346, 
+ error: 0.00222762997463, 
+ differror: 0.606534579995, 
+ interror: -0.00638882187109, 
+ input_angle: 1.29703294281
+ 
+ current_time: 0.96666686 
+ des_alpha: 1.29949179346, 
+ error: 0.00245885065235, 
+ differror: 0.0138732378883, 
+ interror: -0.00392997121875, 
+ input_angle: 1.29787041847
+ 
+ current_time: 0.98333353 
+ des_alpha: 1.29949179346, 
+ error: 0.0016213749918, 
+ differror: -0.0502485295833, 
+ interror: -0.00230859622695, 
+ input_angle: 1.29852164728
+ 
+ current_time: 1.0000002 
+ des_alpha: 1.29949179346, 
+ error: 0.000970146178613, 
+ differror: -0.0390737209763, 
+ interror: -0.00133845004834, 
+ input_angle: 1.29892632133
+ 
+ current_time: 1.01666687 
+ des_alpha: 1.29949179346, 
+ error: 0.00056547213478, 
+ differror: -0.0242804377739, 
+ interror: -0.000772977913559, 
+ input_angle: 1.29916470398
+ 
+ current_time: 1.03333354 
+ des_alpha: 1.24115070425, 
+ error: -0.0580139997283, 
+ differror: -3.51476760883, 
+ interror: -0.0587869776418, 
+ input_angle: 1.22637666205
+ 
+ current_time: 1.05000021 
+ des_alpha: 0.604016855879, 
+ error: -0.622359806168, 
+ differror: -33.8607416142, 
+ interror: -0.68114678381, 
+ input_angle: 0.797197551197
+ 
+ current_time: 1.06666688 
+ des_alpha: 0.604016855879, 
+ error: -0.193180695318, 
+ differror: 25.7507415009, 
+ interror: -0.874327479128, 
+ input_angle: 0.797197551197
+ 
+ current_time: 1.08333355 
+ des_alpha: 1.22879361581, 
+ error: 0.431596064612, 
+ differror: 37.4865980984, 
+ interror: -0.442731414516, 
+ input_angle: 1.03067801427
+ 
+ current_time: 1.10000022 
+ des_alpha: 1.39074865142, 
+ error: 0.360070637156, 
+ differror: -4.29152478902, 
+ interror: -0.0826607773597, 
+ input_angle: 1.32581031563
+ 
+ current_time: 1.11666689 
+ des_alpha: 1.22879361581, 
+ error: -0.097016699823, 
+ differror: -27.4252347337, 
+ interror: -0.179677477183, 
+ input_angle: 1.17560816878
+ 
+ current_time: 1.13333356 
+ des_alpha: 1.51752123069, 
+ error: 0.341913061917, 
+ differror: 26.3357804372, 
+ interror: 0.162235584734, 
+ input_angle: 1.54011237916
+ 
+ current_time: 1.15000023 
+ des_alpha: 1.41755021315, 
+ error: -0.122562166009, 
+ differror: -27.8685081018, 
+ interror: 0.0396734187255, 
+ input_angle: 1.4436921263
+ 
+ current_time: 1.1666669 
+ des_alpha: 1.23015368761, 
+ error: -0.213538438694, 
+ differror: -5.45857526941, 
+ interror: -0.173865019969, 
+ input_angle: 1.19065477449
+ 
+ current_time: 1.18333357 
+ des_alpha: 1.16966783958, 
+ error: -0.0209869349065, 
+ differror: 11.5530879166, 
+ interror: -0.194851954875, 
+ input_angle: 1.10356834887
+ 
+ current_time: 1.20000024 
+ des_alpha: 1.33161947455, 
+ error: 0.228051125677, 
+ differror: 14.9422806465, 
+ interror: 0.0331991708015, 
+ input_angle: 1.32043407176
+ 
+ current_time: 1.21666691 
+ des_alpha: 1.4642574553, 
+ error: 0.143823383539, 
+ differror: -5.05366351755, 
+ interror: 0.17702255434, 
+ input_angle: 1.51183301096
+ 
+ current_time: 1.23333358 
+ des_alpha: 1.23015368761, 
+ error: -0.281679323351, 
+ differror: -25.5301573074, 
+ interror: -0.104656769011, 
+ input_angle: 1.22169175079
+ 
+ current_time: 1.25000025 
+ des_alpha: 1.44339955845, 
+ error: 0.221707807662, 
+ differror: 30.2032218201, 
+ interror: 0.11705103865, 
+ input_angle: 1.46219664122
+ 
+ current_time: 1.26666692 
+ des_alpha: 1.3100079973, 
+ error: -0.152188643919, 
+ differror: -22.4337826081, 
+ interror: -0.0351376052687, 
+ input_angle: 1.31292869984
+ 
+ current_time: 1.28333359 
+ des_alpha: 1.42914287959, 
+ error: 0.116214179745, 
+ differror: 16.104166199, 
+ interror: 0.0810765744768, 
+ input_angle: 1.44589826268
+ 
+ current_time: 1.30000026 
+ des_alpha: 1.39363570732, 
+ error: -0.0522625553615, 
+ differror: -10.1086020847, 
+ interror: 0.0288140191153, 
+ input_angle: 1.40894686955
+ 
+ current_time: 1.31666693 
+ des_alpha: 1.4364989725, 
+ error: 0.0275521029557, 
+ differror: 4.78887854126, 
+ interror: 0.0563661220709, 
+ input_angle: 1.45347190493
+ 
+ current_time: 1.3333336 
+ des_alpha: 1.37811668343, 
+ error: -0.0753552215036, 
+ differror: -6.17443823267, 
+ interror: -0.0189890994327, 
+ input_angle: 1.37900602078
+ 
+ current_time: 1.35000027 
+ des_alpha: 1.39364979299, 
+ error: 0.014643772218, 
+ differror: 5.39993854331, 
+ interror: -0.00434532721463, 
+ input_angle: 1.39066455125
+ 
+ current_time: 1.36666694 
+ des_alpha: 1.52199481923, 
+ error: 0.131330267986, 
+ differror: 7.00118834586, 
+ interror: 0.126984940772, 
+ input_angle: 1.55330652171
+ 
+ current_time: 1.38333361 
+ des_alpha: 1.39364979299, 
+ error: -0.159656728711, 
+ differror: -17.45921631, 
+ interror: -0.0326717879392, 
+ input_angle: 1.39818034009
+ 
+ current_time: 1.40000028 
+ des_alpha: 1.37811668343, 
+ error: -0.0200636566594, 
+ differror: 8.37558264798, 
+ interror: -0.0527354445985, 
+ input_angle: 1.36166564348
+ 
+ current_time: 1.41666695 
+ des_alpha: 1.35569329412, 
+ error: -0.00597234936936, 
+ differror: 0.845478268304, 
+ interror: -0.0587077939679, 
+ input_angle: 1.33574280116
+ 
+ current_time: 1.43333362 
+ des_alpha: 1.30505901904, 
+ error: -0.0306837821257, 
+ differror: -1.48268566885, 
+ interror: -0.0893915760936, 
+ input_angle: 1.27684034562
+ 
+ current_time: 1.45000029 
+ des_alpha: 1.39363570732, 
+ error: 0.116795361703, 
+ differror: 8.84874685996, 
+ interror: 0.0274037856092, 
+ input_angle: 1.39154749611
+ 
+ current_time: 1.46666696 
+ des_alpha: 1.24703633445, 
+ error: -0.144511161659, 
+ differror: -15.678388266, 
+ interror: -0.11710737605, 
+ input_angle: 1.220499869
+ 
+ current_time: 1.48333363 
+ des_alpha: 1.42290515204, 
+ error: 0.202405283034, 
+ differror: 20.8149825186, 
+ interror: 0.0852979069844, 
+ input_angle: 1.43251889118
+ 
+ current_time: 1.5000003 
+ des_alpha: 1.46704921476, 
+ error: 0.0345303235823, 
+ differror: -10.0724955526, 
+ interror: 0.119828230567, 
+ input_angle: 1.5055360631
+ 
+ current_time: 1.51666697 
+ des_alpha: 1.49701051153, 
+ error: -0.00852555156885, 
+ differror: -2.5833519924, 
+ interror: 0.111302678998, 
+ input_angle: 1.53681900434
+ 
+ current_time: 1.53333364 
+ des_alpha: 1.04038570453, 
+ error: -0.496433299808, 
+ differror: -29.2744590395, 
+ interror: -0.38513062081, 
+ input_angle: 0.955233317227
+ 
+ current_time: 1.55000031 
+ des_alpha: 0.604016855879, 
+ error: -0.351216461348, 
+ differror: 8.713008565, 
+ interror: -0.736347082158, 
+ input_angle: 0.797197551197
+ 
+ current_time: 1.56666698 
+ des_alpha: 1.18001912671, 
+ error: 0.382821575515, 
+ differror: 44.0422734033, 
+ interror: -0.353525506643, 
+ input_angle: 1.01800304184
+ 
+ current_time: 1.58333365 
+ des_alpha: 1.39363570732, 
+ error: 0.375632665485, 
+ differror: -0.431334515576, 
+ interror: 0.022107158842, 
+ input_angle: 1.36380994637
+ 
+ current_time: 1.60000032 
+ des_alpha: 1.24703633445, 
+ error: -0.116773611912, 
+ differror: -29.5443707349, 
+ interror: -0.0946664530701, 
+ input_angle: 1.22558043707
+ 
+ current_time: 1.61666699 
+ des_alpha: 1.4452644143, 
+ error: 0.219683977228, 
+ differror: 20.1874513109, 
+ interror: 0.125017524158, 
+ input_angle: 1.46705215003
+ 
+ current_time: 1.63333366 
+ des_alpha: 1.50515124212, 
+ error: 0.0380990920906, 
+ differror: -10.8950909292, 
+ interror: 0.163116616249, 
+ input_angle: 1.5584321486
+ 
+ current_time: 1.65000033 
+ des_alpha: 1.55348918372, 
+ error: -0.00494296488254, 
+ differror: -2.58252290189, 
+ interror: 0.158173651366, 
+ input_angle: 1.60934425818
+ 
+ current_time: 1.666667 
+ des_alpha: 1.66208841989, 
+ error: 0.0527441617032, 
+ differror: 3.4612269029, 
+ interror: 0.210917813069, 
+ input_angle: 1.73063523829
+ 
+ current_time: 1.68333367 
+ des_alpha: 1.816700135, 
+ error: 0.0860648967093, 
+ differror: 1.99924370051, 
+ interror: 0.296982709778, 
+ input_angle: 1.91203759375
+ 
+ current_time: 1.70000034 
+ des_alpha: 1.79057423562, 
+ error: -0.12146335813, 
+ differror: -12.4516928, 
+ interror: 0.175519351649, 
+ input_angle: 1.86415234451
+ 
+ current_time: 1.71666701 
+ des_alpha: 1.7322342298, 
+ error: -0.131918114713, 
+ differror: -0.627285269537, 
+ interror: 0.0436012369357, 
+ input_angle: 1.7606864742
+ 
+ current_time: 1.73333368 
+ des_alpha: 1.82212663018, 
+ error: 0.0614401559787, 
+ differror: 11.6014939212, 
+ interror: 0.105041392914, 
+ input_angle: 1.8527471021
+ 
+ current_time: 1.75000035 
+ des_alpha: 1.64377352649, 
+ error: -0.208973575612, 
+ differror: -16.2248206505, 
+ interror: -0.103932182698, 
+ input_angle: 1.6282946201
+ 
+ current_time: 1.76666702 
+ des_alpha: 2.16948486121, 
+ error: 0.541190241109, 
+ differror: 45.0098200013, 
+ interror: 0.437258058411, 
+ input_angle: 2.26840615754
+ 
+ current_time: 1.78333369 
+ des_alpha: 1.55568190871, 
+ error: -0.712724248834, 
+ differror: -75.2348543496, 
+ interror: -0.275466190423, 
+ input_angle: 1.53054116695
+ 
+ current_time: 1.80000036 
+ des_alpha: 1.72228124819, 
+ error: 0.191740081243, 
+ differror: 54.2678489511, 
+ interror: -0.0837261091801, 
+ input_angle: 1.67380310185
+ 
+ current_time: 1.81666703 
+ des_alpha: 1.41565814131, 
+ error: -0.25814496054, 
+ differror: -26.9930971084, 
+ interror: -0.34187106972, 
+ input_angle: 1.32181776296
+ 
+ current_time: 1.8333337 
+ des_alpha: 1.67801830199, 
+ error: 0.356200539026, 
+ differror: 36.8607226018, 
+ interror: 0.0143294693062, 
+ input_angle: 1.64741356234
+ 
+ current_time: 1.85000037 
+ des_alpha: 1.61878877122, 
+ error: -0.0286247911198, 
+ differror: -23.0895151908, 
+ interror: -0.0142953218136, 
+ input_angle: 1.6166478877
+ 
+ current_time: 1.86666704 
+ des_alpha: 1.59186087602, 
+ error: -0.024787011687, 
+ differror: 0.230266719914, 
+ interror: -0.0390823335006, 
+ input_angle: 1.58066076046
+ 
+ current_time: 1.88333371 
+ des_alpha: 1.59773901114, 
+ error: 0.0170782506766, 
+ differror: 2.51191523943, 
+ interror: -0.022004082824, 
+ input_angle: 1.58832975708
+ 
+ current_time: 1.90000038 
+ des_alpha: 1.5893115179, 
+ error: 0.000981760824601, 
+ differror: -0.965789197962, 
+ interror: -0.0210223219994, 
+ input_angle: 1.58185552912
+ 
+ current_time: 1.91666705 
+ des_alpha: 2.03147545957, 
+ error: 0.44961993045, 
+ differror: 26.9182847939, 
+ interror: 0.428597608451, 
+ input_angle: 2.13652262948
+ 
+ current_time: 1.93333372 
+ des_alpha: 2.11265880054, 
+ error: -0.0238638289476, 
+ differror: -28.4090198821, 
+ interror: 0.404733779503, 
+ input_angle: 2.25670200626
+ 
+ current_time: 1.95000039 
+ des_alpha: 1.94534655121, 
+ error: -0.311355455051, 
+ differror: -17.2494941163, 
+ interror: 0.0933783244526, 
+ input_angle: 2.00916451027
+ 
+ current_time: 1.96666706 
+ des_alpha: 1.8686888474, 
+ error: -0.140475662871, 
+ differror: 10.2527854802, 
+ interror: -0.0470973384185, 
+ input_angle: 1.86625234524
+ 
+ current_time: 1.98333373 
+ des_alpha: 1.72228124819, 
+ error: -0.143971097051, 
+ differror: -0.209726008854, 
+ interror: -0.19106843547, 
+ input_angle: 1.66980440548
+ 
+ current_time: 2.0000004 
+ des_alpha: 1.68876111637, 
+ error: 0.0189567108915, 
+ differror: 9.77566652142, 
+ interror: -0.172111724578, 
+ input_angle: 1.62662634168
+ 
+ current_time: 2.01666707 
+ des_alpha: 1.72228124819, 
+ error: 0.0956549065093, 
+ differror: 4.60189081669, 
+ interror: -0.0764568180689, 
+ input_angle: 1.68595587121
+ 
+ current_time: 2.03333374 
+ des_alpha: 1.60127894179, 
+ error: -0.0846769294271, 
+ differror: -10.8199079922, 
+ interror: -0.161133747496, 
+ input_angle: 1.55334982311
+ 
+ current_time: 2.05000041 
+ des_alpha: 1.55061978805, 
+ error: -0.00273003505346, 
+ differror: 4.91681267906, 
+ interror: -0.163863782549, 
+ input_angle: 1.49354046767
+ 
+ current_time: 2.06666708 
+ des_alpha: 1.79057423562, 
+ error: 0.297033767956, 
+ differror: 17.9858245834, 
+ interror: 0.133169985407, 
+ input_angle: 1.80748035372
+ 
+ current_time: 2.08333375 
+ des_alpha: 1.59115291724, 
+ error: -0.216327436481, 
+ differror: -30.8016661059, 
+ interror: -0.0831574510743, 
+ input_angle: 1.58368055301
+ 
+ current_time: 2.10000042 
+ des_alpha: 1.80729380172, 
+ error: 0.223613248706, 
+ differror: 26.396435832, 
+ interror: 0.140455797632, 
+ input_angle: 1.83409200602
+ 
+ current_time: 2.11666709 
+ des_alpha: 1.74909765153, 
+ error: -0.0849943544871, 
+ differror: -18.5164524883, 
+ interror: 0.0554614431449, 
+ input_angle: 1.77700859208
+ 
+ current_time: 2.13333376 
+ des_alpha: 1.62768066328, 
+ error: -0.149327928803, 
+ differror: -3.86001368694, 
+ interror: -0.0938664856579, 
+ input_angle: 1.60976018618
+ 
+ current_time: 2.15000043 
+ des_alpha: 1.64401417966, 
+ error: 0.0342539934869, 
+ differror: 11.0149131344, 
+ interror: -0.059612492171, 
+ input_angle: 1.61972440805
+ 
+ current_time: 2.1666671 
+ des_alpha: 1.57623327028, 
+ error: -0.04349113777, 
+ differror: -4.66470694247, 
+ interror: -0.103103629941, 
+ input_angle: 1.54449611358
+ 
+ current_time: 2.18333377 
+ des_alpha: 1.64401417966, 
+ error: 0.0995180660808, 
+ differror: 8.58055051494, 
+ interror: -0.00358556386011, 
+ input_angle: 1.6328074257
+ 
+ current_time: 2.20000044 
+ des_alpha: 1.57079632679, 
+ error: -0.062011098909, 
+ differror: -9.69174796104, 
+ interror: -0.0655966627691, 
+ input_angle: 1.55403860472
+ 
+ current_time: 2.21666711 
+ des_alpha: 1.61054120899, 
+ error: 0.0565026042741, 
+ differror: 7.11082076882, 
+ interror: -0.00909405849507, 
+ input_angle: 1.60170802809
+ 
+ current_time: 2.23333378 
+ des_alpha: 1.52924265391, 
+ error: -0.0724653741769, 
+ differror: -7.73807715944, 
+ interror: -0.081559432672, 
+ input_angle: 1.5079433899
+ 
+ current_time: 2.25000045 
+ des_alpha: 1.53365479869, 
+ error: 0.0257114087929, 
+ differror: 5.89060580007, 
+ interror: -0.0558480238791, 
+ input_angle: 1.51153684945
+ 
+ current_time: 2.26666712 
+ des_alpha: 1.52958951601, 
+ error: 0.0180526665566, 
+ differror: -0.459524442274, 
+ interror: -0.0377953573225, 
+ input_angle: 1.51455587429
+ 
+ current_time: 2.28333379 
+ des_alpha: 1.52730520692, 
+ error: 0.0127493326347, 
+ differror: -0.318199971676, 
+ interror: -0.0250460246878, 
+ input_angle: 1.51726416502
+ 
+ current_time: 2.30000046 
+ des_alpha: 1.57079632679, 
+ error: 0.0535321617748, 
+ differror: 2.44696925902, 
+ interror: 0.028486137087, 
+ input_angle: 1.5754132586
+ 
+ current_time: 2.31666713 
+ des_alpha: 1.57623327028, 
+ error: 0.000820011686684, 
+ differror: -3.16272837274, 
+ interror: 0.0293061487737, 
+ input_angle: 1.58640842119
+ 
+ current_time: 2.3333338 
+ des_alpha: 1.57079632679, 
+ error: -0.0156120943918, 
+ differror: -0.985926167523, 
+ interror: 0.0136940543819, 
+ input_angle: 1.57715045527
+ 
+ current_time: 2.35000047 
+ des_alpha: 1.58185602016, 
+ error: 0.00470556489199, 
+ differror: 1.21905931322, 
+ interror: 0.0183996192739, 
+ input_angle: 1.58782533042
+ 
+ current_time: 2.36666714 
+ des_alpha: 1.57079632679, 
+ error: -0.0170290036215, 
+ differror: -1.30407385, 
+ interror: 0.0013706156524, 
+ input_angle: 1.57297894264
+ 
+ current_time: 2.38333381 
+ des_alpha: 1.57079632679, 
+ error: -0.00218261584049, 
+ differror: 0.890783088705, 
+ interror: -0.000812000188091, 
+ input_angle: 1.57073038831
+ 
+ current_time: 2.40000048 
+ des_alpha: 1.54767918781, 
+ error: -0.0230512005019, 
+ differror: -1.25211482926, 
+ interror: -0.02386320069, 
+ input_angle: 1.54163218762
+ 
+ current_time: 2.41666715 
+ des_alpha: 1.52930807452, 
+ error: -0.0123241130986, 
+ differror: 0.643625115474, 
+ interror: -0.0361873137886, 
+ input_angle: 1.51787492601
+ 
+ current_time: 2.43333382 
+ des_alpha: 1.53915522982, 
+ error: 0.0212803038154, 
+ differror: 2.01626461159, 
+ interror: -0.0149070099732, 
+ input_angle: 1.53180974595
+ 
+ current_time: 2.45000049 
+ des_alpha: 1.52391560343, 
+ error: -0.00789414251773, 
+ differror: -1.7504664299, 
+ interror: -0.0228011524909, 
+ input_angle: 1.51672461431
+ 
+ current_time: 2.46666716 
+ des_alpha: 1.68876111637, 
+ error: 0.172036502061, 
+ differror: 10.7958365155, 
+ interror: 0.14923534957, 
+ input_angle: 1.72378983851
+ 
+ current_time: 2.48333383 
+ des_alpha: 1.59521367849, 
+ error: -0.128576160029, 
+ differror: -18.0367561181, 
+ interror: 0.0206591895404, 
+ input_angle: 1.61530201083
+ 
+ current_time: 2.5000005 
+ des_alpha: 1.63177429682, 
+ error: 0.0164722859896, 
+ differror: 8.70290502056, 
+ interror: 0.0371314755301, 
+ input_angle: 1.64312308465
+ 
+ current_time: 2.51666717 
+ des_alpha: 1.72228124819, 
+ error: 0.0791581635355, 
+ differror: 3.76115190052, 
+ interror: 0.116289639066, 
+ input_angle: 1.75506680551
+ 
+ current_time: 2.53333384 
+ des_alpha: 1.82212663018, 
+ error: 0.0670598246679, 
+ differror: -0.72590018688, 
+ interror: 0.183349463733, 
+ input_angle: 1.87959296002
+ 
+ current_time: 2.55000051 
+ des_alpha: 1.79057423562, 
+ error: -0.0890187243944, 
+ differror: -9.3647110708, 
+ interror: 0.094330739339, 
+ input_angle: 1.83249186683
+ 
+ current_time: 2.56666718 
+ des_alpha: 1.83544353174, 
+ error: 0.00295166491157, 
+ differror: 5.51822225472, 
+ interror: 0.0972824042506, 
+ input_angle: 1.86919720674
+ 
+ current_time: 2.58333385 
+ des_alpha: 1.7388335453, 
+ error: -0.130363661441, 
+ differror: -7.99891798138, 
+ interror: -0.0330812571905, 
+ input_angle: 1.74029147142
+ 
+ current_time: 2.60000052 
+ des_alpha: 1.79057423562, 
+ error: 0.0502827641974, 
+ differror: 10.8387833706, 
+ interror: 0.0172015070069, 
+ input_angle: 1.79156648665
+ 
+ current_time: 2.61666719 
+ des_alpha: 1.79057423562, 
+ error: -0.000992251032685, 
+ differror: -3.07650029851, 
+ interror: 0.0162092559742, 
+ input_angle: 1.79634670032
+ 
+ current_time: 2.63333386 
+ des_alpha: 1.77143942908, 
+ error: -0.0249072712373, 
+ differror: -1.4349009253, 
+ interror: -0.00869801526305, 
+ input_angle: 1.77088585086
+ 
+ current_time: 2.65000053 
+ des_alpha: 1.72228124819, 
+ error: -0.0486046026714, 
+ differror: -1.42183960168, 
+ interror: -0.0573026179344, 
+ input_angle: 1.70708579218
+ 
+ current_time: 2.6666672 
+ des_alpha: 1.57079632679, 
+ error: -0.136289465384, 
+ differror: -5.26109071056, 
+ interror: -0.193592083319, 
+ input_angle: 1.51666804417
+ 
+ current_time: 2.68333387 
+ des_alpha: 1.68876111637, 
+ error: 0.1720930722, 
+ differror: 18.5029485545, 
+ interror: -0.0214990111192, 
+ input_angle: 1.66402715526
+ 
+ current_time: 2.70000054 
+ des_alpha: 1.69318418883, 
+ error: 0.0291570335739, 
+ differror: -8.57616060231, 
+ interror: 0.00765802245474, 
+ input_angle: 1.69294879334
+ 
+ current_time: 2.71666721 
+ des_alpha: 1.88679358199, 
+ error: 0.193844788653, 
+ differror: 9.88126332851, 
+ interror: 0.201502811108, 
+ input_angle: 1.93793508701
+ 
+ current_time: 2.73333388 
+ des_alpha: 1.8686888474, 
+ error: -0.0692462396115, 
+ differror: -15.7854585388, 
+ interror: 0.132256571497, 
+ input_angle: 1.92190327138
+ 
+ current_time: 2.75000055 
+ des_alpha: 1.74909765153, 
+ error: -0.172805619855, 
+ differror: -6.21356157191, 
+ interror: -0.0405490483586, 
+ input_angle: 1.75218604659
+ 
+ current_time: 2.76666722 
+ des_alpha: 1.57623327028, 
+ error: -0.175952776305, 
+ differror: -0.188829349218, 
+ interror: -0.216501824664, 
+ input_angle: 1.51805290928
+ 
+ current_time: 2.78333389 
+ des_alpha: 1.52391560343, 
+ error: 0.0058626941479, 
+ differror: 10.9089260454, 
+ interror: -0.210639130516, 
+ input_angle: 1.44960563834
+ 
+ current_time: 2.80000056 
+ des_alpha: 1.5569938033, 
+ error: 0.107388164969, 
+ differror: 6.09152703096, 
+ interror: -0.103250965547, 
+ input_angle: 1.51011714887
+ 
+ current_time: 2.81666723 
+ des_alpha: 1.66401304515, 
+ error: 0.153895896285, 
+ differror: 2.79046332084, 
+ interror: 0.050644930738, 
+ input_angle: 1.66634918128
+ 
+ current_time: 2.8333339 
+ des_alpha: 1.57079632679, 
+ error: -0.0955528544857, 
+ differror: -14.9669220528, 
+ interror: -0.0449079237478, 
+ input_angle: 1.56463383893
+ 
+ current_time: 2.85000057 
+ des_alpha: 1.18395770721, 
+ error: -0.380676131723, 
+ differror: -17.1073932128, 
+ interror: -0.425584055471, 
+ input_angle: 1.07307090097
+ 
+ current_time: 2.86666724 
+ des_alpha: 1.91648745073, 
+ error: 0.843416549766, 
+ differror: 73.4455462002, 
+ interror: 0.417832494295, 
+ input_angle: 1.97838716876
+ 
+ current_time: 2.88333391 
+ des_alpha: 1.97219449261, 
+ error: -0.00619267614531, 
+ differror: -50.9765433594, 
+ interror: 0.41163981815, 
+ input_angle: 2.11688769658
+ 
+ current_time: 2.90000058 
+ des_alpha: 1.88678194642, 
+ error: -0.230105750165, 
+ differror: -13.4347817542, 
+ interror: 0.181534067985, 
+ input_angle: 1.97332944523
+ 
+ current_time: 2.91666725 
+ des_alpha: 1.89105333724, 
+ error: -0.0822761079871, 
+ differror: 8.8697767567, 
+ interror: 0.0992579599981, 
+ input_angle: 1.93402123404
+ 
+ current_time: 2.93333392 
+ des_alpha: 1.81886851805, 
+ error: -0.115152715984, 
+ differror: -1.9725960853, 
+ interror: -0.015894755986, 
+ input_angle: 1.82482062506
+ 
+ current_time: 2.95000059 
+ des_alpha: 1.62618852981, 
+ error: -0.198632095251, 
+ differror: -5.00876175426, 
+ interror: -0.214526851237, 
+ input_angle: 1.5709673414
+ 
+ current_time: 2.96666726 
+ des_alpha: 1.58238362907, 
+ error: 0.0114162876743, 
+ differror: 12.6029004549, 
+ interror: -0.203110563563, 
+ input_angle: 1.51015330306
+ 
+ current_time: 2.98333393 
+ des_alpha: 1.55481012338, 
+ error: 0.0446568203176, 
+ differror: 1.99443155971, 
+ interror: -0.158453743245, 
+ input_angle: 1.49488563121
+ 
+ current_time: 3.0000006 
+ des_alpha: 1.63831646725, 
+ error: 0.14343083604, 
+ differror: 5.92643975809, 
+ interror: -0.0150229072047, 
+ input_angle: 1.61871536612
+ 
+ current_time: 3.01666727 
+ des_alpha: 2.65891669353, 
+ error: 1.04020132741, 
+ differror: 53.8062187209, 
+ interror: 1.02517842021, 
+ input_angle: 2.34439510239
+ 
+ current_time: 3.03333394 
+ des_alpha: 2.03348218374, 
+ error: -0.310912918656, 
+ differror: -81.0668385506, 
+ interror: 0.714265501549, 
+ input_angle: 2.31456640114
+ 
+ current_time: 3.05000061 
+ des_alpha: 1.99018192125, 
+ error: -0.324384479892, 
+ differror: -0.808293512464, 
+ interror: 0.389881021657, 
+ input_angle: 2.15907872682
+ 
+ current_time: 3.06666728 
+ des_alpha: 1.83544353174, 
+ error: -0.32363519508, 
+ differror: 0.0449570796986, 
+ interror: 0.0662458265768, 
+ input_angle: 1.89099309055
+ 
+ current_time: 3.08333395 
+ des_alpha: 1.57079632679, 
+ error: -0.320196763757, 
+ differror: 0.206305838157, 
+ interror: -0.25395093718, 
+ input_angle: 1.51393317516
+ 
+ current_time: 3.10000062 
+ des_alpha: 1.18001912671, 
+ error: -0.333914048446, 
+ differror: -0.823036916732, 
+ interror: -0.587864985625, 
+ input_angle: 1.00765778659
+ 
+ current_time: 3.11666729 
+ des_alpha: 1.29949179346, 
+ error: 0.291834006873, 
+ differror: 37.5448758101, 
+ interror: -0.296030978753, 
+ input_angle: 1.16669755021
+ 
+ current_time: 3.13333396 
+ des_alpha: 1.54045725792, 
+ error: 0.373759707711, 
+ differror: 4.91554106717, 
+ interror: 0.0777287289584, 
+ input_angle: 1.53028634229
+ 
+ current_time: 3.15000063 
+ des_alpha: 1.62228979017, 
+ error: 0.0920034478838, 
+ differror: -16.9053722086, 
+ interror: 0.169732176842, 
+ input_angle: 1.67249570728
+ 
+ current_time: 3.1666673 
+ des_alpha: 1.72489950791, 
+ error: 0.0524038006372, 
+ differror: -2.3759783596, 
+ interror: 0.222135977479, 
+ input_angle: 1.79740671997
+ 
+ current_time: 3.18333397 
+ des_alpha: 1.53414470491, 
+ error: -0.263262015058, 
+ differror: -18.9399451537, 
+ interror: -0.0411260375782, 
+ input_angle: 1.54607679326
+ 
+ current_time: 3.20000064 
+ des_alpha: 1.50515124212, 
+ error: -0.0409255511403, 
+ differror: 13.340185167, 
+ interror: -0.0820515887185, 
+ input_angle: 1.48052574118
+ 
+ current_time: 3.21666731 
+ des_alpha: 1.57079632679, 
+ error: 0.0902705856103, 
+ differror: 7.87176663068, 
+ interror: 0.00821899689176, 
+ input_angle: 1.56464591715
+ 
+ current_time: 3.23333398 
+ des_alpha: 1.57079632679, 
+ error: 0.00615040964891, 
+ differror: -5.04720954824, 
+ interror: 0.0143694065407, 
+ input_angle: 1.57521057812
+ 
+ current_time: 3.25000065 
+ des_alpha: 1.49810755251, 
+ error: -0.077103025606, 
+ differror: -4.99520511626, 
+ interror: -0.0627336190654, 
+ input_angle: 1.4838610884
+ 
+ current_time: 3.26666732 
+ des_alpha: 1.72228124819, 
+ error: 0.238420159788, 
+ differror: 18.9313873374, 
+ interror: 0.175686540723, 
+ input_angle: 1.75992952146
+ 
+ current_time: 3.28333399 
+ des_alpha: 1.77143942908, 
+ error: 0.0115099076155, 
+ differror: -13.6146124074, 
+ interror: 0.187196448338, 
+ input_angle: 1.83580719524
+ 
+ current_time: 3.30000066 
+ des_alpha: 1.74909765153, 
+ error: -0.0867095437063, 
+ differror: -5.89316590068, 
+ interror: 0.100486904632, 
+ input_angle: 1.79293902252
+ 
+ current_time: 3.31666733 
+ des_alpha: 1.52391560343, 
+ error: -0.269023419091, 
+ differror: -10.9388303353, 
+ interror: -0.168536514459, 
+ input_angle: 1.49183016528
+ 
+ current_time: 3.333334 
+ des_alpha: 1.52391560343, 
+ error: 0.0320854381514, 
+ differror: 18.0665278212, 
+ interror: -0.136451076307, 
+ input_angle: 1.47294918291
+ 
+ current_time: 3.35000067 
+ des_alpha: 1.4215884707, 
+ error: -0.0513607122049, 
+ differror: -5.00676802003, 
+ interror: -0.187811788512, 
+ input_angle: 1.36099041594
+ 
+ current_time: 3.36666734 
+ des_alpha: 1.24703633445, 
+ error: -0.11395408149, 
+ differror: -3.75560140599, 
+ interror: -0.301765870002, 
+ input_angle: 1.1528136881
+ 
+ current_time: 3.38333401 
+ des_alpha: 1.37811668343, 
+ error: 0.225302995325, 
+ differror: 20.3554205378, 
+ interror: -0.0764628746767, 
+ input_angle: 1.32882437776
+ 
+ current_time: 3.40000068 
+ des_alpha: 1.3899016106, 
+ error: 0.0610772328451, 
+ differror: -9.85354377811, 
+ interror: -0.0153856418317, 
+ input_angle: 1.37840891268
+ 
+ current_time: 3.41666735 
+ des_alpha: 1.49511070988, 
+ error: 0.116701797198, 
+ differror: 3.33747319369, 
+ interror: 0.101316155366, 
+ input_angle: 1.51890118453
+ 
+ current_time: 3.43333402 
+ des_alpha: 1.55213639339, 
+ error: 0.0332352088582, 
+ differror: -5.00799429879, 
+ interror: 0.134551364225, 
+ input_angle: 1.59590584999
+ 
+ current_time: 3.45000069 
+ des_alpha: 1.52199481923, 
+ error: -0.0739110307511, 
+ differror: -6.4287730908, 
+ interror: 0.0606403334735, 
+ input_angle: 1.55061003903
+ 
+ current_time: 3.46666736 
+ des_alpha: 1.58185602016, 
+ error: 0.0312459811345, 
+ differror: 6.30941945125, 
+ interror: 0.091886314608, 
+ input_angle: 1.61089163216
+ 
+ current_time: 3.48333403 
+ des_alpha: 1.61054120899, 
+ error: -0.0003504231684, 
+ differror: -1.89578387902, 
+ interror: 0.0915358914396, 
+ input_angle: 1.64261381331
+ 
+ current_time: 3.5000007 
+ des_alpha: 1.54547015081, 
+ error: -0.0971436625042, 
+ differror: -5.80759319863, 
+ interror: -0.00560777106462, 
+ input_angle: 1.55322179718
+ 
+ current_time: 3.51666737 
+ des_alpha: 1.56385482054, 
+ error: 0.0106330233537, 
+ differror: 6.46659985815, 
+ interror: 0.00502525228909, 
+ input_angle: 1.5645503565
+ 
+ current_time: 3.53333404 
+ des_alpha: 1.54767918781, 
+ error: -0.0168711686933, 
+ differror: -1.65025119277, 
+ interror: -0.0118459164042, 
+ input_angle: 1.54522023394
+ 
+ current_time: 3.55000071 
+ des_alpha: 1.6524408779, 
+ error: 0.107220643962, 
+ differror: 7.4455072702, 
+ interror: 0.0953747275575, 
+ input_angle: 1.67509996815
+ 
+ current_time: 3.56666738 
+ des_alpha: 1.54767918781, 
+ error: -0.127420780339, 
+ differror: -14.0784826423, 
+ interror: -0.032046052781, 
+ input_angle: 1.54920514737
+ 
+ current_time: 3.58333405 
+ des_alpha: 1.6524408779, 
+ error: 0.103235730529, 
+ differror: 13.8393878842, 
+ interror: 0.0711896777481, 
+ input_angle: 1.66703369206
+ 
+ current_time: 3.60000072 
+ des_alpha: 1.5907992589, 
+ error: -0.0762344331604, 
+ differror: -10.7682076677, 
+ interror: -0.00504475541233, 
+ input_angle: 1.59665703782
+ 
+ current_time: 3.61666739 
+ des_alpha: 1.61943060744, 
+ error: 0.0227735696207, 
+ differror: 5.94047897877, 
+ interror: 0.0177288142084, 
+ input_angle: 1.62335833545
+ 
+ current_time: 3.63333406 
+ des_alpha: 1.61943060744, 
+ error: -0.00392772801086, 
+ differror: -1.60207753748, 
+ interror: 0.0138010861975, 
+ input_angle: 1.62465376041
+ 
+ current_time: 3.65000073 
+ des_alpha: 1.61943060744, 
+ error: -0.00522315297022, 
+ differror: -0.0777254820162, 
+ interror: 0.0085779332273, 
+ input_angle: 1.62295519937
+ 
+ current_time: 3.6666674 
+ des_alpha: 1.61943060744, 
+ error: -0.00352459192658, 
+ differror: 0.101913642236, 
+ interror: 0.00505334130072, 
+ input_angle: 1.62155173609
+ 
+ current_time: 3.68333407 
+ des_alpha: 1.53414470491, 
+ error: -0.0874070311806, 
+ differror: -5.03294534866, 
+ interror: -0.0823536898799, 
+ input_angle: 1.51406161657
+ 
+ current_time: 3.70000074 
+ des_alpha: 1.53500365422, 
+ error: 0.0209420376505, 
+ differror: 6.50094282968, 
+ interror: -0.0614116522295, 
+ input_angle: 1.51141537217
+ 
+ current_time: 3.71666741 
+ des_alpha: 1.46525677731, 
+ error: -0.04615859486, 
+ differror: -4.02603714542, 
+ interror: -0.107570247089, 
+ input_angle: 1.43222305032
+ 
+ current_time: 3.73333408 
+ des_alpha: 1.5259110148, 
+ error: 0.0936879644775, 
+ differror: 8.39079188209, 
+ interror: -0.013882282612, 
+ input_angle: 1.51168341943
+ 
+ current_time: 3.75000075 
+ des_alpha: 1.52967646342, 
+ error: 0.017993043985, 
+ differror: -4.54169432121, 
+ interror: 0.00411076137301, 
+ input_angle: 1.5293159255
+ 
+ current_time: 3.76666742 
+ des_alpha: 1.51322603352, 
+ error: -0.016089891977, 
+ differror: -2.04497574873, 
+ interror: -0.011979130604, 
+ input_angle: 1.51064232701
+ 
+ current_time: 3.78333409 
+ des_alpha: 1.52982417283, 
+ error: 0.0191818458193, 
+ differror: 2.11630384452, 
+ interror: 0.00720271521529, 
+ input_angle: 1.53042693857
+ 
+ current_time: 3.80000076 
+ des_alpha: 1.51322603352, 
+ error: -0.017200905049, 
+ differror: -2.18296461551, 
+ interror: -0.00999818983373, 
+ input_angle: 1.51144675759
+ 
+ current_time: 3.81666743 
+ des_alpha: 1.52967646342, 
+ error: 0.0182297058319, 
+ differror: 2.12583622769, 
+ interror: 0.00823151599814, 
+ input_angle: 1.53073452344
+ 
+ current_time: 3.8333341 
+ des_alpha: 1.5259110148, 
+ error: -0.00482350863922, 
+ differror: -1.38319259163, 
+ interror: 0.00340800735892, 
+ input_angle: 1.52758616824
+ 
+ current_time: 3.85000077 
+ des_alpha: 1.58185602016, 
+ error: 0.0542698519238, 
+ differror: 3.54560092466, 
+ interror: 0.0576778592828, 
+ input_angle: 1.59661628572
+ 
+ current_time: 3.86666744 
+ des_alpha: 1.52454639438, 
+ error: -0.0720698913376, 
+ differror: -7.58038307961, 
+ interror: -0.0143920320548, 
+ input_angle: 1.52671617229
+ 
+ current_time: 3.88333411 
+ des_alpha: 1.50408862518, 
+ error: -0.0226275471151, 
+ differror: 2.96654006004, 
+ interror: -0.0370195791699, 
+ input_angle: 1.49339452718
+ 
+ current_time: 3.90000078 
+ des_alpha: 1.56502249396, 
+ error: 0.0716279667766, 
+ differror: 5.65532970244, 
+ interror: 0.0346083876067, 
+ input_angle: 1.56997263294
+ 
+ current_time: 3.91666745 
+ des_alpha: 1.50408862518, 
+ error: -0.0658840077634, 
+ differror: -8.25071682226, 
+ interror: -0.0312756201566, 
+ input_angle: 1.4997305589
+ 
+ current_time: 3.93333412 
+ des_alpha: 1.46525677731, 
+ error: -0.0344737815856, 
+ differror: 1.88461319374, 
+ interror: -0.0657494017422, 
+ input_angle: 1.44569186486
+ 
+ current_time: 3.95000079 
+ des_alpha: 1.50842201356, 
+ error: 0.0627301486968, 
+ differror: 5.83223465049, 
+ interror: -0.00301925304545, 
+ input_angle: 1.50109226012
+ 
+ current_time: 3.96666746 
+ des_alpha: 1.51322603352, 
+ error: 0.0121337734003, 
+ differror: -3.03578191063, 
+ interror: 0.00911452035486, 
+ input_angle: 1.51520273831
+ 
+ current_time: 3.98333413 
+ des_alpha: 1.52967646342, 
+ error: 0.0144737251108, 
+ differror: 0.14039707455, 
+ interror: 0.0235882454657, 
+ input_angle: 1.53648497682
+ 
+ current_time: 4.0000008 
+ des_alpha: 1.5259110148, 
+ error: -0.010573962025, 
+ differror: -1.50286092757, 
+ interror: 0.0130142834407, 
+ input_angle: 1.5315234102
+ 
+ current_time: 4.01666747 
+ des_alpha: 1.6524408779, 
+ error: 0.120917467698, 
+ differror: 7.88948420546, 
+ interror: 0.133931751138, 
+ input_angle: 1.68722524403
+ 
+ current_time: 4.03333414 
+ des_alpha: 1.56244143663, 
+ error: -0.124783807399, 
+ differror: -14.7420735574, 
+ interror: 0.00914794373982, 
+ input_angle: 1.57812159768
+ 
+ current_time: 4.05000081 
+ des_alpha: 1.66401304515, 
+ error: 0.0858914474711, 
+ differror: 12.6405127641, 
+ interror: 0.095039391211, 
+ input_angle: 1.68868768733
+ 
+ current_time: 4.06666748 
+ des_alpha: 1.54051462248, 
+ error: -0.148173064851, 
+ differror: -14.0438679305, 
+ interror: -0.0531336736398, 
+ input_angle: 1.53673514319
+ 
+ current_time: 4.08333415 
+ des_alpha: 1.69012857315, 
+ error: 0.153393429966, 
+ differror: 18.0939860702, 
+ interror: 0.100259756326, 
+ input_angle: 1.70988014487
+ 
+ current_time: 4.10000082 
+ des_alpha: 1.72007558252, 
+ error: 0.0101954376534, 
+ differror: -8.59187782038, 
+ interror: 0.110455193979, 
+ input_angle: 1.75771535665
+ 
+ current_time: 4.11666749 
+ des_alpha: 1.67562399553, 
+ error: -0.0820913611225, 
+ differror: -5.53720681911, 
+ interror: 0.028363832857, 
+ input_angle: 1.69376047314
+ 
+ current_time: 4.13333416 
+ des_alpha: 1.72489950791, 
+ error: 0.0311390347705, 
+ differror: 6.79382239481, 
+ interror: 0.0595028676275, 
+ input_angle: 1.74261160811
+ 
+ current_time: 4.15000083 
+ des_alpha: 1.64113038096, 
+ error: -0.101481227149, 
+ differror: -7.95721412376, 
+ interror: -0.041978359522, 
+ input_angle: 1.63658607784
+ 
+ current_time: 4.1666675 
+ des_alpha: 1.64113038096, 
+ error: 0.00454430311774, 
+ differror: 6.36153054373, 
+ interror: -0.0374340564042, 
+ input_angle: 1.6275740309
+ 
+ current_time: 4.18333417 
+ des_alpha: 1.60127894179, 
+ error: -0.0262950891153, 
+ differror: -1.85036316391, 
+ interror: -0.0637291455195, 
+ input_angle: 1.58160324977
+ 
+ current_time: 4.20000084 
+ des_alpha: 1.62768066328, 
+ error: 0.0460774135094, 
+ differror: 4.34234928901, 
+ interror: -0.0176517320101, 
+ input_angle: 1.61689481572
+ 
+ current_time: 4.21666751 
+ des_alpha: 1.816700135, 
+ error: 0.199805319279, 
+ differror: 9.22367250142, 
+ interror: 0.182153587268, 
+ input_angle: 1.86047335862
+ 
+ current_time: 4.23333418 
+ des_alpha: 1.55009689542, 
+ error: -0.310376463192, 
+ differror: -30.610900826, 
+ interror: -0.128222875923, 
+ input_angle: 1.53625653517
+ 
+ current_time: 4.25000085 
+ des_alpha: 1.54547015081, 
+ error: 0.00921361563674, 
+ differror: 19.1754008946, 
+ interror: -0.119009260287, 
+ input_angle: 1.50289554814
+ 
+ current_time: 4.26666752 
+ des_alpha: 1.69012857315, 
+ error: 0.187233025011, 
+ differror: 10.6811624262, 
+ interror: 0.068223764724, 
+ input_angle: 1.69528358831
+ 
+ current_time: 4.28333419 
+ des_alpha: 1.80729380172, 
+ error: 0.11201021341, 
+ differror: -4.51336779338, 
+ interror: 0.180233978134, 
+ input_angle: 1.85917467272
+ 
+ current_time: 4.30000086 
+ des_alpha: 1.82212663018, 
+ error: -0.0370480425454, 
+ differror: -8.94349356861, 
+ interror: 0.143185935588, 
+ input_angle: 1.87594651189
+ 
+ current_time: 4.31666753 
+ des_alpha: 1.83544353174, 
+ error: -0.0405029801453, 
+ differror: -0.207296214537, 
+ interror: 0.102682955443, 
+ input_angle: 1.87543286416
+ 
+ current_time: 4.3333342 
+ des_alpha: 1.79057423562, 
+ error: -0.0848586285393, 
+ differror: -2.66133837137, 
+ interror: 0.0178243269038, 
+ input_angle: 1.80529861289
+ 
+ current_time: 4.35000087 
+ des_alpha: 2.54645399649, 
+ error: 0.741155383594, 
+ differror: 49.5608308159, 
+ interror: 0.758979710498, 
+ input_angle: 2.34439510239
+ 
+ current_time: 4.36666754 
+ des_alpha: 1.5801710627, 
+ error: -0.764224039689, 
+ differror: -90.3227473325, 
+ interror: -0.0052443291909, 
+ input_angle: 1.65475795146
+ 
+ current_time: 4.38333421 
+ des_alpha: 2.05623734638, 
+ error: 0.401479394919, 
+ differror: 69.942192088, 
+ interror: 0.396235065728, 
+ input_angle: 2.15477167989
+ 
+ current_time: 4.40000088 
+ des_alpha: 1.64113038096, 
+ error: -0.513641298933, 
+ differror: -54.9072306496, 
+ interror: -0.117406233204, 
+ input_angle: 1.65140232923
+ 
+ current_time: 4.41666755 
+ des_alpha: 1.54553678677, 
+ error: -0.105865542454, 
+ differror: 24.4665404954, 
+ interror: -0.223271775659, 
+ input_angle: 1.47797821954
+ 
+ current_time: 4.43333422 
+ des_alpha: 1.54170707524, 
+ error: 0.0637288557046, 
+ differror: 10.1756618544, 
+ interror: -0.159542919954, 
+ input_angle: 1.47949416769
+ 
+ current_time: 4.45000089 
+ des_alpha: 1.66208841989, 
+ error: 0.182594252199, 
+ differror: 7.13192236328, 
+ interror: 0.0230513322449, 
+ input_angle: 1.65189696095
+ 
+ current_time: 4.46666756 
+ des_alpha: 1.50408862518, 
+ error: -0.147808335775, 
+ differror: -19.8241513136, 
+ interror: -0.12475700353, 
+ input_angle: 1.47520450752
+ 
+ current_time: 4.48333423 
+ des_alpha: 1.66401304515, 
+ error: 0.188808537631, 
+ differror: 20.1970083649, 
+ interror: 0.0640515341008, 
+ input_angle: 1.66755022832
+ 
+ current_time: 4.5000009 
+ des_alpha: 1.61054120899, 
+ error: -0.0570090193324, 
+ differror: -14.749050468, 
+ interror: 0.00704251476843, 
+ input_angle: 1.61870699109
+ 
+ current_time: 4.51666757 
+ des_alpha: 1.72007558252, 
+ error: 0.101368591432, 
+ differror: 9.50265474533, 
+ interror: 0.1084111062, 
+ input_angle: 1.74788261055
+ 
+ current_time: 4.53333424 
+ des_alpha: 1.79057423562, 
+ error: 0.0426916250702, 
+ differror: -3.52061727758, 
+ interror: 0.151102731271, 
+ input_angle: 1.83919102906
+ 
+ current_time: 4.55000091 
+ des_alpha: 1.98900434528, 
+ error: 0.149813316217, 
+ differror: 6.42730018336, 
+ interror: 0.300916047488, 
+ input_angle: 2.07934363028
+ 
+ current_time: 4.56666758 
+ des_alpha: 1.98900434528, 
+ error: -0.090339284999, 
+ differror: -14.4091531911, 
+ interror: 0.210576762489, 
+ input_angle: 2.07174014065
+ 
+ current_time: 4.58333425 
+ des_alpha: 1.79652632206, 
+ error: -0.275213818588, 
+ differror: -11.0924697968, 
+ interror: -0.0646370560992, 
+ input_angle: 1.80142473428
+ 
+ current_time: 4.60000092 
+ des_alpha: 1.54765520932, 
+ error: -0.253769524963, 
+ differror: 1.28665736016, 
+ interror: -0.318406581062, 
+ input_angle: 1.46158985845
+ 
+ current_time: 4.61666759 
+ des_alpha: 1.55217548893, 
+ error: 0.0905856304871, 
+ differror: 20.6613051948, 
+ interror: -0.227820950575, 
+ input_angle: 1.46337959318
+ 
+ current_time: 4.63333426 
+ des_alpha: 1.56638343544, 
+ error: 0.103003842259, 
+ differror: 0.745092557269, 
+ interror: -0.124817108317, 
+ input_angle: 1.5123970633
+ 
+ current_time: 4.65000093 
+ des_alpha: 1.61943060744, 
+ error: 0.107033544138, 
+ differror: 0.241782064388, 
+ interror: -0.0177835641791, 
+ input_angle: 1.60250300557
+ 
+ current_time: 4.6666676 
+ des_alpha: 1.61166599461, 
+ error: 0.00916298904755, 
+ differror: -5.87223213096, 
+ interror: -0.00862057513155, 
+ input_angle: 1.60773249441
+ 
+ current_time: 4.68333427 
+ des_alpha: 1.77143942908, 
+ error: 0.163706934667, 
+ differror: 9.27263488263, 
+ interror: 0.155086359535, 
+ input_angle: 1.80934896145
+ 
+ current_time: 4.70000094 
+ des_alpha: 1.60127894179, 
+ error: -0.208070019663, 
+ differror: -22.3066127984, 
+ interror: -0.0529836601272, 
+ input_angle: 1.60354166271
+ 
+ current_time: 4.71666761 
+ des_alpha: 1.62768066328, 
+ error: 0.0241390005673, 
+ differror: 13.9325384273, 
+ interror: -0.0288446595599, 
+ input_angle: 1.61517113237
+ 
+ current_time: 4.73333428 
+ des_alpha: 1.74521669779, 
+ error: 0.130045565419, 
+ differror: 6.35439262024, 
+ interror: 0.101200905859, 
+ input_angle: 1.7676324583
+ 
+ current_time: 4.75000095 
+ des_alpha: 1.91958101059, 
+ error: 0.151948552291, 
+ differror: 1.31417894948, 
+ interror: 0.253149458151, 
+ input_angle: 1.99298846572
+ 
+ current_time: 4.76666762 
+ des_alpha: 1.87535780811, 
+ error: -0.117630657611, 
+ differror: -16.1747493592, 
+ interror: 0.135518800539, 
+ input_angle: 1.93455245406
+ 
+ current_time: 4.78333429 
+ des_alpha: 1.56256997366, 
+ error: -0.371982480393, 
+ differror: -15.2611063147, 
+ interror: -0.236463679853, 
+ input_angle: 1.51700593375
+ 
+ current_time: 4.80000096 
+ des_alpha: 1.56316552795, 
+ error: 0.0461595941996, 
+ differror: 25.0885194578, 
+ interror: -0.190304085654, 
+ input_angle: 1.49194313855
+ 
+ current_time: 4.81666763 
+ des_alpha: 1.9196421016, 
+ error: 0.427698963047, 
+ differror: 22.8923575524, 
+ interror: 0.237394877393, 
+ input_angle: 1.95996041238
+ 
+ current_time: 4.8333343 
+ des_alpha: 1.56535713341, 
+ error: -0.394603278978, 
+ differror: -49.3381246539, 
+ interror: -0.157208401585, 
+ input_angle: 1.54979452075
+ 
+ current_time: 4.85000097 
+ des_alpha: 1.83447195352, 
+ error: 0.284677432768, 
+ differror: 40.7568345534, 
+ interror: 0.127469031183, 
+ input_angle: 1.85061837115
+ 
+ current_time: 4.86666764 
+ des_alpha: 1.60782147334, 
+ error: -0.24279689781, 
+ differror: -31.648453505, 
+ interror: -0.115327866627, 
+ input_angle: 1.59173640981
+ 
+ current_time: 4.88333431 
+ des_alpha: 1.87807212734, 
+ error: 0.286335717536, 
+ differror: 31.7479505712, 
+ interror: 0.171007850909, 
+ input_angle: 1.90929130341
+ 
+ current_time: 4.90000098 
+ des_alpha: 2.05623734638, 
+ error: 0.146946042969, 
+ differror: -8.36337880136, 
+ interror: 0.317953893878, 
+ input_angle: 2.15282660494
+ 
+ current_time: 4.91666765 
+ des_alpha: 2.74281097951, 
+ error: 0.589984374573, 
+ differror: 26.5822945798, 
+ interror: 0.907938268451, 
+ input_angle: 2.34439510239
+ 
+ current_time: 4.93333432 
+ des_alpha: 1.92287484148, 
+ error: -0.421520260916, 
+ differror: -60.6902659913, 
+ interror: 0.486418007535, 
+ input_angle: 2.13527317021
+ 
+ current_time: 4.95000099 
+ des_alpha: 1.87535780811, 
+ error: -0.259915362101, 
+ differror: 9.69629198962, 
+ interror: 0.226502645434, 
+ input_angle: 1.98062527022
+ 
+ current_time: 4.96666766 
+ des_alpha: 1.8686888474, 
+ error: -0.111936422817, 
+ differror: 8.87873458127, 
+ interror: 0.114566222617, 
+ input_angle: 1.9199806676
+ 
+ current_time: 4.98333433 
+ des_alpha: 1.63755076875, 
+ error: -0.282429898848, 
+ differror: -10.2296065159, 
+ interror: -0.167863676232, 
+ input_angle: 1.60704147195
+ 
+ current_time: 5.000001 
+ des_alpha: 1.56555486666, 
+ error: -0.0414866052934, 
+ differror: 14.456594722, 
+ interror: -0.209350281525, 
+ input_angle: 1.49643092866
+ 
+ current_time: 5.01666767 
+ des_alpha: 1.5655546966, 
+ error: 0.0691237679472, 
+ differror: 6.63662106711, 
+ interror: -0.140226513578, 
+ input_angle: 1.50956304006
+ 
+ current_time: 5.03333434 
+ des_alpha: 1.97363094708, 
+ error: 0.464067907025, 
+ differror: 23.6966436054, 
+ interror: 0.323841393448, 
+ input_angle: 2.04056864408
+ 
+ current_time: 5.05000101 
+ des_alpha: 1.56132935874, 
+ error: -0.479239285344, 
+ differror: -56.5984202225, 
+ interror: -0.155397891897, 
+ input_angle: 1.55486402511
+ 
+ current_time: 5.06666768 
+ des_alpha: 1.55061978805, 
+ error: -0.00424423705824, 
+ differror: 28.4996971972, 
+ interror: -0.159642128955, 
+ input_angle: 1.49516946662
+ 
+ current_time: 5.08333435 
+ des_alpha: 1.8585443872, 
+ error: 0.363374920575, 
+ differror: 22.0571450466, 
+ interror: 0.20373279162, 
+ input_angle: 1.89351337221
+ 
+ current_time: 5.10000102 
+ des_alpha: 1.65146825384, 
+ error: -0.242045118372, 
+ differror: -36.3251950718, 
+ interror: -0.0383123267525, 
+ input_angle: 1.66226345131
+ 
+ current_time: 5.11666769 
+ des_alpha: 1.8686888474, 
+ error: 0.206425396089, 
+ differror: 26.9082254861, 
+ interror: 0.168113069337, 
+ input_angle: 1.90688588206
+ 
+ current_time: 5.13333436 
+ des_alpha: 1.90972955185, 
+ error: 0.00284366979439, 
+ differror: -12.2149011347, 
+ interror: 0.170956739131, 
+ input_angle: 1.96928004357
+ 
+ current_time: 5.15000103 
+ des_alpha: 1.62182812523, 
+ error: -0.347451918343, 
+ differror: -21.0177310847, 
+ interror: -0.176495179212, 
+ input_angle: 1.59480000434
+ 
+ current_time: 5.1666677 
+ des_alpha: 1.57338924343, 
+ error: -0.0214107609022, 
+ differror: 19.562465534, 
+ interror: -0.197905940114, 
+ input_angle: 1.50626324048
+ 
+ current_time: 5.18333437 
+ des_alpha: 2.41735056349, 
+ error: 0.911087323006, 
+ differror: 55.9498738445, 
+ interror: 0.713181382892, 
+ input_angle: 2.34439510239
+ 
+ current_time: 5.20000104 
+ des_alpha: 1.57279276599, 
+ error: -0.771602336407, 
+ differror: -100.961359373, 
+ interror: -0.0584209535152, 
+ input_angle: 1.6295056659
+ 
+ current_time: 5.21666771 
+ des_alpha: 1.56208169356, 
+ error: -0.0674239723382, 
+ differror: 42.250693394, 
+ interror: -0.125844925853, 
+ input_angle: 1.52477836674
+ 
+ current_time: 5.23333438 
+ des_alpha: 2.74281097951, 
+ error: 1.21803261277, 
+ differror: 77.1273796807, 
+ interror: 1.09218768691, 
+ input_angle: 2.34439510239
+ 
+ current_time: 5.25000105 
+ des_alpha: 1.63488813115, 
+ error: -0.709506971246, 
+ differror: -115.65235191, 
+ interror: 0.382680715666, 
+ input_angle: 1.83977707875
+ 
+ current_time: 5.26666772 
+ des_alpha: 1.92892633372, 
+ error: 0.0891492549683, 
+ differror: 47.919363989, 
+ interror: 0.471829970634, 
+ input_angle: 2.08515189795
+ 
+ current_time: 5.28333439 
+ des_alpha: 2.47154200138, 
+ error: 0.386390103433, 
+ differror: 17.834447341, 
+ interror: 0.858220074067, 
+ input_angle: 2.34439510239
+ 
+ current_time: 5.30000106 
+ des_alpha: 1.81886851805, 
+ error: -0.525526584339, 
+ differror: -54.7149903233, 
+ interror: 0.332693489728, 
+ input_angle: 1.98786389789
+ 
+ current_time: 5.31666773 
+ des_alpha: 2.06610119585, 
+ error: 0.0782372979561, 
+ differror: 36.2258256925, 
+ interror: 0.410930787684, 
+ input_angle: 2.20210324174
+ 
+ current_time: 5.3333344 
+ des_alpha: 1.68746223734, 
+ error: -0.514641004404, 
+ differror: -35.5726910271, 
+ interror: -0.103710216719, 
+ input_angle: 1.70262776193
+ 
+ current_time: 5.35000107 
+ des_alpha: 1.59320379256, 
+ error: -0.10942396937, 
+ differror: 24.3130172394, 
+ interror: -0.213134186089, 
+ input_angle: 1.52954922436
+ 
+ current_time: 5.36666774 
+ des_alpha: 1.66208841989, 
+ error: 0.132539195524, 
+ differror: 14.5177869901, 
+ interror: -0.0805949905659, 
+ input_angle: 1.62062625364
+ 
+ current_time: 5.38333441 
+ des_alpha: 1.9025608792, 
+ error: 0.281934625564, 
+ differror: 8.9637240097, 
+ interror: 0.201339634998, 
+ input_angle: 1.94483628889
+ 
+ current_time: 5.40000108 
+ des_alpha: 1.67144007817, 
+ error: -0.273396210725, 
+ differror: -33.3198435134, 
+ interror: -0.0720565757266, 
+ input_angle: 1.67355989774
+ 
+ current_time: 5.41666775 
+ des_alpha: 1.04188770368, 
+ error: -0.631672194058, 
+ differror: -21.4965547007, 
+ interror: -0.703728769785, 
+ input_angle: 0.85874985366
+ 
+ current_time: 5.43333442 
+ des_alpha: 1.42290515204, 
+ error: 0.564155298377, 
+ differror: 71.7496351962, 
+ interror: -0.139573471408, 
+ input_angle: 1.31763890721
+ 
+ current_time: 5.45000109 
+ des_alpha: 2.00530304988, 
+ error: 0.687664142669, 
+ differror: 7.41052917542, 
+ interror: 0.548090671261, 
+ input_angle: 2.12836837055
+ 
+ current_time: 5.46666776 
+ des_alpha: 0.516479878798, 
+ error: -1.61188849175, 
+ differror: -137.973130471, 
+ interror: -1.06379782049, 
+ input_angle: 0.797197551197
+ 
+ current_time: 5.48333443 
+ des_alpha: 0.851845880041, 
+ error: 0.0546483288443, 
+ differror: 99.9921892373, 
+ interror: -1.00914949165, 
+ input_angle: 0.797197551197
+ 
+ current_time: 5.5000011 
+ des_alpha: 1.57623327028, 
+ error: 0.779035719088, 
+ differror: 43.463234722, 
+ interror: -0.230113772558, 
+ input_angle: 1.41778987798
+ 
+ current_time: 5.51666777 
+ des_alpha: 1.23015368761, 
+ error: -0.18763619037, 
+ differror: -58.0003029674, 
+ interror: -0.417749962928, 
+ input_angle: 1.10270481962
+ 
+ current_time: 5.53333444 
+ des_alpha: 1.46823337479, 
+ error: 0.365528555169, 
+ differror: 33.1898780943, 
+ interror: -0.0522214077592, 
+ input_angle: 1.41340302656
+ 
+ current_time: 5.55000111 
+ des_alpha: 1.49611747125, 
+ error: 0.0827144446864, 
+ differror: -16.9688432352, 
+ interror: 0.0304930369272, 
+ input_angle: 1.4985185897
+ 
+ current_time: 5.56666778 
+ des_alpha: 1.57079632679, 
+ error: 0.0722777370936, 
+ differror: -0.626202330328, 
+ interror: 0.102770774021, 
+ input_angle: 1.59953832399
+ 
+ current_time: 5.58333445 
+ des_alpha: 1.57079632679, 
+ error: -0.0287419971979, 
+ differror: -6.06118284525, 
+ interror: 0.0740287768229, 
+ input_angle: 1.5995805984
+ 
+ current_time: 5.60000112 
+ des_alpha: 1.57079632679, 
+ error: -0.0287842716078, 
+ differror: -0.00253646408563, 
+ interror: 0.0452445052151, 
+ input_angle: 1.58951033078
+ 
+ current_time: 5.61666779 
+ des_alpha: 1.57079632679, 
+ error: -0.0187140039861, 
+ differror: 0.604215936461, 
+ interror: 0.026530501229, 
+ input_angle: 1.58195340262
+ 
+ current_time: 5.63333446 
+ des_alpha: 1.57079632679, 
+ error: -0.0111570758288, 
+ differror: 0.453415598754, 
+ interror: 0.0153734254003, 
+ input_angle: 1.57729273327
+ 
+ current_time: 5.65000113 
+ des_alpha: 1.57079632679, 
+ error: -0.00649640647297, 
+ differror: 0.27964010542, 
+ interror: 0.00887701892729, 
+ input_angle: 1.57455292407
+ 
+ current_time: 5.6666678 
+ des_alpha: 1.57079632679, 
+ error: -0.00375659727185, 
+ differror: 0.164388519189, 
+ interror: 0.00512042165544, 
+ input_angle: 1.5729641341
+ 
+ current_time: 5.68333447 
+ des_alpha: 1.57079632679, 
+ error: -0.00216780730659, 
+ differror: 0.09532737885, 
+ interror: 0.00295261434885, 
+ input_angle: 1.57204652255
+ 
+ current_time: 5.70000114 
+ des_alpha: 1.5042969635, 
+ error: -0.0677495590524, 
+ differror: -3.93490431777, 
+ interror: -0.0647969447036, 
+ input_angle: 1.48839298875
+ 
+ current_time: 5.71666781 
+ des_alpha: 1.57079632679, 
+ error: 0.0824033380407, 
+ differror: 9.00917202375, 
+ interror: 0.0176063933371, 
+ input_angle: 1.56871823066
+ 
+ current_time: 5.73333448 
+ des_alpha: 1.57079632679, 
+ error: 0.00207809613608, 
+ differror: -4.81951355037, 
+ interror: 0.0196844894732, 
+ input_angle: 1.5774780885
+ 
+ current_time: 5.75000115 
+ des_alpha: 1.57079632679, 
+ error: -0.006681761702, 
+ differror: -0.525591365167, 
+ interror: 0.0130027277712, 
+ input_angle: 1.57601545769
+ 
+ current_time: 5.76666782 
+ des_alpha: 1.48851460475, 
+ error: -0.0875008529353, 
+ differror: -4.84914450417, 
+ interror: -0.0744981251642, 
+ input_angle: 1.47119034624
+ 
+ current_time: 5.78333449 
+ des_alpha: 1.00240989692, 
+ error: -0.468780449317, 
+ differror: -22.8767712076, 
+ interror: -0.543278574481, 
+ input_angle: 0.859140440782
+ 
+ current_time: 5.80000116 
+ des_alpha: 1.36281612411, 
+ error: 0.503675683328, 
+ differror: 58.3473562892, 
+ interror: -0.0396028911533, 
+ input_angle: 1.29858754387
+ 
+ current_time: 5.81666783 
+ des_alpha: 1.57079632679, 
+ error: 0.272208782922, 
+ differror: -13.8880112468, 
+ interror: 0.232605891768, 
+ input_angle: 1.62498751062
+ 
+ current_time: 5.8333345 
+ des_alpha: 1.57079632679, 
+ error: -0.0541911838267, 
+ differror: -19.5839940881, 
+ interror: 0.178414707941, 
+ input_angle: 1.63866059296
+ 
+ current_time: 5.85000117 
+ des_alpha: 1.57079632679, 
+ error: -0.0678642661622, 
+ differror: -0.820384776052, 
+ interror: 0.110550441779, 
+ input_angle: 1.61627540803
+ 
+ current_time: 5.86666784 
+ des_alpha: 1.57079632679, 
+ error: -0.045479081239, 
+ differror: 1.34311082677, 
+ interror: 0.0650713605403, 
+ input_angle: 1.59811921111
+ 
+ current_time: 5.88333451 
+ des_alpha: 1.51307975894, 
+ error: -0.0850394521702, 
+ differror: -2.37362178115, 
+ interror: -0.0199680916299, 
+ input_angle: 1.51459487208
+ 
+ current_time: 5.90000118 
+ des_alpha: 1.57079632679, 
+ error: 0.0562014547106, 
+ differror: 8.47445271796, 
+ interror: 0.0362333630808, 
+ input_angle: 1.5778578584
+ 
+ current_time: 5.91666785 
+ des_alpha: 1.57079632679, 
+ error: -0.0070615316072, 
+ differror: -3.79577841991, 
+ interror: 0.0291718314736, 
+ input_angle: 1.58171262097
+ 
+ current_time: 5.93333452 
+ des_alpha: 1.57079632679, 
+ error: -0.0109162941765, 
+ differror: -0.231285707899, 
+ interror: 0.0182555372971, 
+ input_angle: 1.57827739427
+ 
+ current_time: 5.95000119 
+ des_alpha: 1.57079632679, 
+ error: -0.00748106747163, 
+ differror: 0.206113561067, 
+ interror: 0.0107744698255, 
+ input_angle: 1.57531549798
+ 
+ current_time: 5.96666786 
+ des_alpha: 1.57079632679, 
+ error: -0.00451917118607, 
+ differror: 0.17771374159, 
+ interror: 0.00625529863939, 
+ input_angle: 1.57343759844
+ 
+ current_time: 5.98333453 
+ des_alpha: 1.57079632679, 
+ error: -0.00264127164239, 
+ differror: 0.112673950086, 
+ interror: 0.00361402699699, 
+ input_angle: 1.57232536341
+ 
+ current_time: 6.0000012 
+ des_alpha: 1.57079632679, 
+ error: -0.00152903661319, 
+ differror: 0.0667340884055, 
+ interror: 0.00208499038381, 
+ input_angle: 1.57167897709
+ 
+ current_time: 6.01666787 
+ des_alpha: 1.57079632679, 
+ error: -0.000882650295651, 
+ differror: 0.0387831712955, 
+ interror: 0.00120234008816, 
+ input_angle: 1.57130541086
+ 
+ current_time: 6.03333454 
+ des_alpha: 1.57079632679, 
+ error: -0.00050908406042, 
+ differror: 0.0224139696311, 
+ interror: 0.000693256027736, 
+ input_angle: 1.57108987481
+ 
+ current_time: 6.05000121 
+ des_alpha: 1.57079632679, 
+ error: -0.00029354801575, 
+ differror: 0.0129321600938, 
+ interror: 0.000399708011987, 
+ input_angle: 1.5709655794
+ 
+ current_time: 6.06666788 
+ des_alpha: 1.57079632679, 
+ error: -0.00016925260577, 
+ differror: 0.00745772310722, 
+ interror: 0.000230455406216, 
+ input_angle: 1.57089391145
+ 
+ current_time: 6.08333455 
+ des_alpha: 1.57079632679, 
+ error: -9.75846527527e-05, 
+ differror: 0.00430007632103, 
+ interror: 0.000132870753464, 
+ input_angle: 1.57085259002
+ 
+ current_time: 6.10000122 
+ des_alpha: 1.57079632679, 
+ error: -5.62632289876e-05, 
+ differror: 0.00247928493005, 
+ interror: 7.66075244762e-05, 
+ input_angle: 1.57082876575
+ 
+ current_time: 6.11666789 
+ des_alpha: 1.57079632679, 
+ error: -3.24389564654e-05, 
+ differror: 0.00142945606544, 
+ interror: 4.41685680108e-05, 
+ input_angle: 1.57081502969
+ 
+ current_time: 6.13333456 
+ des_alpha: 1.57079632679, 
+ error: -1.87028944503e-05, 
+ differror: 0.000824163556077, 
+ interror: 2.54656735605e-05, 
+ input_angle: 1.57080711007
+ 
+ current_time: 6.15000123 
+ des_alpha: 1.57079632679, 
+ error: -1.07832751912e-05, 
+ differror: 0.000475177060508, 
+ interror: 1.46823983693e-05, 
+ input_angle: 1.57080254396
+ 
+ current_time: 6.1666679 
+ des_alpha: 1.57079632679, 
+ error: -6.21716694837e-06, 
+ differror: 0.000273966439777, 
+ interror: 8.46523142095e-06, 
+ input_angle: 1.57079991134
+ 
+ current_time: 6.18333457 
+ des_alpha: 1.57079632679, 
+ error: -3.58454769223e-06, 
+ differror: 0.000157957123778, 
+ interror: 4.88068372873e-06, 
+ input_angle: 1.57079839349
+ 
+ current_time: 6.20000124 
+ des_alpha: 1.57079632679, 
+ error: -2.06669407432e-06, 
+ differror: 9.10711988601e-05, 
+ interror: 2.8139896544e-06, 
+ input_angle: 1.57079751836
+ 
+ current_time: 6.21666791 
+ des_alpha: 1.57079632679, 
+ error: -1.19156578648e-06, 
+ differror: 5.25076867686e-05, 
+ interror: 1.62242386792e-06, 
+ input_angle: 1.5707970138
+ 
+ current_time: 6.23333458 
+ des_alpha: 1.57079632679, 
+ error: -6.87004932498e-07, 
+ differror: 3.02736451845e-05, 
+ interror: 9.35418935422e-07, 
+ input_angle: 1.57079672289
+ 
+ current_time: 6.25000125 
+ des_alpha: 1.57079632679, 
+ error: -3.96097120658e-07, 
+ differror: 1.74544652195e-05, 
+ interror: 5.39321814763e-07, 
+ input_angle: 1.57079655517
+ 
+ current_time: 6.26666792 
+ des_alpha: 1.57079632679, 
+ error: -2.28372347255e-07, 
+ differror: 1.00634843915e-05, 
+ interror: 3.10949467508e-07, 
+ input_angle: 1.57079645846
+ 
+ current_time: 6.28333459 
+ des_alpha: 1.57623327028, 
+ error: 0.00543681182011, 
+ differror: 0.326222346303, 
+ interror: 0.00543712276958, 
+ input_angle: 1.57759258207
+ 
+ current_time: 6.30000126 
+ des_alpha: 1.57079632679, 
+ error: -0.006796255277, 
+ differror: -0.73398387903, 
+ interror: -0.00135913250742, 
+ input_angle: 1.57100025594
+ 
+ current_time: 6.31666793 
+ des_alpha: 1.57079632679, 
+ error: -0.000203929150102, 
+ differror: 0.395539488506, 
+ interror: -0.00156306165753, 
+ input_angle: 1.57026964813
+ 
+ current_time: 6.3333346 
+ des_alpha: 1.57079632679, 
+ error: 0.000526678665123, 
+ differror: 0.0438364601463, 
+ interror: -0.0010363829924, 
+ input_angle: 1.57038092488
+ 
+ current_time: 6.35000127 
+ des_alpha: 1.57079632679, 
+ error: 0.000415401913853, 
+ differror: -0.00667660374091, 
+ interror: -0.000620981078549, 
+ input_angle: 1.57053744323
+ 
+ current_time: 6.36666794 
+ des_alpha: 1.57079632679, 
+ error: 0.000258883568877, 
+ differror: -0.00939109882032, 
+ interror: -0.000362097509671, 
+ input_angle: 1.57064370431
+ 
+ current_time: 6.38333461 
+ des_alpha: 1.57079632679, 
+ error: 0.000152622485273, 
+ differror: -0.00637566374113, 
+ interror: -0.000209475024399, 
+ input_angle: 1.57070774829
+ 
+ current_time: 6.40000128 
+ des_alpha: 1.57079632679, 
+ error: 8.85785070668e-05, 
+ differror: -0.00384263792383, 
+ interror: -0.000120896517332, 
+ input_angle: 1.57074515516
+ 
+ current_time: 6.41666795 
+ des_alpha: 1.57079632679, 
+ error: 5.11716317728e-05, 
+ differror: -0.00224441206876, 
+ interror: -6.9724885559e-05, 
+ input_angle: 1.57076680592
+ 
+ current_time: 6.43333462 
+ des_alpha: 1.57079632679, 
+ error: 2.95208731229e-05, 
+ differror: -0.00129904525919, 
+ interror: -4.02040124361e-05, 
+ input_angle: 1.5707793033
+ 
+ current_time: 6.45000129 
+ des_alpha: 1.57079632679, 
+ error: 1.7023491665e-05, 
+ differror: -0.000749842737507, 
+ interror: -2.31805207711e-05, 
+ input_angle: 1.57078651126
+ 
+ current_time: 6.46666796 
+ des_alpha: 1.57079632679, 
+ error: 9.81553143631e-06, 
+ differror: -0.000432477527225, 
+ interror: -1.33649893348e-05, 
+ input_angle: 1.5707906675
+ 
+ current_time: 6.48333463 
+ des_alpha: 1.57079632679, 
+ error: 5.65929941088e-06, 
+ differror: -0.000249373871651, 
+ interror: -7.70568992392e-06, 
+ input_angle: 1.57079306387
+ 
+ current_time: 6.5000013 
+ des_alpha: 1.57079632679, 
+ error: 3.26292141439e-06, 
+ differror: -0.000143782651032, 
+ interror: -4.44276850953e-06, 
+ input_angle: 1.57079444553
+ 
+ current_time: 6.51666797 
+ des_alpha: 1.57079632679, 
+ error: 1.88126111977e-06, 
+ differror: -8.28996010972e-05, 
+ interror: -2.56150738975e-06, 
+ input_angle: 1.57079524214
+ 
+ current_time: 6.53333464 
+ des_alpha: 1.57079632679, 
+ error: 1.08465369841e-06, 
+ differror: -4.77964357223e-05, 
+ interror: -1.47685369134e-06, 
+ input_angle: 1.57079570143
+ 
+ current_time: 6.55000131 
+ des_alpha: 1.57079632679, 
+ error: 6.25364161788e-07, 
+ differror: -2.7557366686e-05, 
+ interror: -8.51489529552e-07, 
+ input_angle: 1.57079596624
+ 
+ current_time: 6.56666798 
+ des_alpha: 1.57079632679, 
+ error: 3.60557751433e-07, 
+ differror: -1.58883814436e-05, 
+ interror: -4.90931778119e-07, 
+ input_angle: 1.57079611891
+ 
+ current_time: 6.58333465 
+ des_alpha: 1.57079632679, 
+ error: 2.07881897474e-07, 
+ differror: -9.16054940545e-06, 
+ interror: -2.83049880645e-07, 
+ input_angle: 1.57079620694
+ 
+ current_time: 6.60000132 
+ des_alpha: 1.57079632679, 
+ error: 1.19855648073e-07, 
+ differror: -5.28157390773e-06, 
+ interror: -1.63194232572e-07, 
+ input_angle: 1.57079625769
+ 
+ current_time: 6.61666799 
+ des_alpha: 1.57079632679, 
+ error: 6.91035462186e-08, 
+ differror: -3.04512550224e-06, 
+ interror: -9.40906863534e-08, 
+ input_angle: 1.57079628695
+ 
+ current_time: 6.63333466 
+ des_alpha: 1.57079632679, 
+ error: 3.98420949566e-08, 
+ differror: -1.75568672458e-06, 
+ interror: -5.42485913968e-08, 
+ input_angle: 1.57079630382
+ 
+ current_time: 6.65000133 
+ des_alpha: 1.57079632679, 
+ error: 2.29712164845e-08, 
+ differror: -1.01225250587e-06, 
+ interror: -3.12773749123e-08, 
+ input_angle: 1.57079631355
+ 
+ current_time: 6.666668 
+ des_alpha: 1.57079632679, 
+ error: 1.32442028455e-08, 
+ differror: -5.83620701615e-07, 
+ interror: -1.80331720667e-08, 
+ input_angle: 1.57079631916
+ 
+ current_time: 6.68333467 
+ des_alpha: 1.57079632679, 
+ error: 7.6360304746e-09, 
+ differror: -3.36490274958e-07, 
+ interror: -1.03971415921e-08, 
+ input_angle: 1.57079632239
+ 
+ current_time: 6.70000134 
+ des_alpha: 1.57079632679, 
+ error: 4.40260250478e-09, 
+ differror: -1.94005639388e-07, 
+ interror: -5.99453908734e-09, 
+ input_angle: 1.57079632426
+ 
+ current_time: 6.71666801 
+ des_alpha: 1.57079632679, 
+ error: 2.53834886443e-09, 
+ differror: -1.1185519605e-07, 
+ interror: -3.45619022291e-09, 
+ input_angle: 1.57079632533
+ 
+ current_time: 6.73333468 
+ des_alpha: 1.57079632679, 
+ error: 1.46350154218e-09, 
+ differror: -6.44908264373e-08, 
+ interror: -1.99268868073e-09, 
+ input_angle: 1.57079632595
+ 
+ current_time: 6.75000135 
+ des_alpha: 1.57079632679, 
+ error: 8.43791259086e-10, 
+ differror: -3.71826095489e-08, 
+ interror: -1.14889742164e-09, 
+ input_angle: 1.57079632631
+ 
+ current_time: 6.76666802 
+ des_alpha: 1.57079632679, 
+ error: 4.86493290097e-10, 
+ differror: -2.14378738518e-08, 
+ interror: -6.62404131546e-10, 
+ input_angle: 1.57079632651
+ 
+ current_time: 6.78333469 
+ des_alpha: 1.57079632679, 
+ error: 2.80490741744e-10, 
+ differror: -1.23601504292e-08, 
+ interror: -3.81913389802e-10, 
+ input_angle: 1.57079632663
+ 
+ current_time: 6.80000136 
+ des_alpha: 1.57079632679, 
+ error: 1.61718860525e-10, 
+ differror: -7.12631144788e-09, 
+ interror: -2.20194529277e-10, 
+ input_angle: 1.5707963267
+ 
+ current_time: 6.81666803 
+ des_alpha: 1.57079632679, 
+ error: 9.32398602771e-11, 
+ differror: -4.10873919314e-09, 
+ interror: -1.26954669e-10, 
+ input_angle: 1.57079632674
+ 
+ current_time: 6.8333347 
+ des_alpha: 1.57079632679, 
+ error: 5.37581090754e-11, 
+ differror: -2.36890459832e-09, 
+ interror: -7.31965599243e-11, 
+ input_angle: 1.57079632676
+ 
+ current_time: 6.85000137 
+ des_alpha: 1.57079632679, 
+ error: 3.09945402677e-11, 
+ differror: -1.3658138553e-09, 
+ interror: -4.22020196567e-11, 
+ input_angle: 1.57079632678
+ 
+ current_time: 6.86666804 
+ des_alpha: 1.57079632679, 
+ error: 1.78701498044e-11, 
+ differror: -7.87463270306e-10, 
+ interror: -2.43318698523e-11, 
+ input_angle: 1.57079632678
+ 
+ current_time: 6.88333471 
+ des_alpha: 1.57079632679, 
+ error: 1.03030917131e-11, 
+ differror: -4.5402339467e-10, 
+ interror: -1.40287781392e-11, 
+ input_angle: 1.57079632679
+ 
+ current_time: 6.90000138 
+ des_alpha: 1.57079632679, 
+ error: 5.94035931556e-12, 
+ differror: -2.61763891501e-10, 
+ interror: -8.0884188236e-12, 
+ input_angle: 1.57079632679
+ 
+ current_time: 6.91666805 
+ des_alpha: 1.57079632679, 
+ error: 3.42503803097e-12, 
+ differror: -1.50919246892e-10, 
+ interror: -4.66338079264e-12, 
+ input_angle: 1.57079632679
+ 
+ current_time: 6.93333472 
+ des_alpha: 1.43938957957, 
+ error: -0.131406747223, 
+ differror: -7.88440325669, 
+ interror: -0.131406747227, 
+ input_angle: 1.40653789276
+ 
+ current_time: 6.95000139 
+ des_alpha: 1.57079632679, 
+ error: 0.164258434032, 
+ differror: 17.7399073273, 
+ interror: 0.0328516868046, 
+ input_angle: 1.56586857377
+ 
+ current_time: 6.96666806 
+ des_alpha: 1.57079632679, 
+ error: 0.00492775302158, 
+ differror: -9.55983894866, 
+ interror: 0.0377794398262, 
+ input_angle: 1.58352635543
+ 
+ current_time: 6.98333473 
+ des_alpha: 1.49318425017, 
+ error: -0.0903421052642, 
+ differror: -5.71619035391, 
+ interror: -0.052562665438, 
+ input_angle: 1.48382152779
+ 
+ current_time: 7.0000014 
+ des_alpha: 1.46834978304, 
+ error: -0.0154717447481, 
+ differror: 4.49222073252, 
+ interror: -0.0680344101861, 
+ input_angle: 1.44608491395
+ 
+ current_time: 7.01666807 
+ des_alpha: 1.57079632679, 
+ error: 0.124711412843, 
+ differror: 8.41098777324, 
+ interror: 0.0566770026564, 
+ input_angle: 1.57816213644
+ 
+ current_time: 7.03333474 
+ des_alpha: 1.57079632679, 
+ error: -0.00736580964549, 
+ differror: -7.92463176436, 
+ interror: 0.0493111930109, 
+ input_angle: 1.58879182531
+ 
+ current_time: 7.05000141 
+ des_alpha: 1.57079632679, 
+ error: -0.0179954985184, 
+ differror: -0.637781204817, 
+ interror: 0.0313156944926, 
+ input_angle: 1.58355636972
+ 
+ current_time: 7.06666808 
+ des_alpha: 1.57079632679, 
+ error: -0.0127600429242, 
+ differror: 0.314127272823, 
+ interror: 0.0185556515683, 
+ input_angle: 1.57856680914
+ 
+ current_time: 7.08333475 
+ des_alpha: 1.57079632679, 
+ error: -0.00777048234134, 
+ differror: 0.299373575099, 
+ interror: 0.010785169227, 
+ input_angle: 1.57534818426
+ 
+ current_time: 7.10000142 
+ des_alpha: 1.57079632679, 
+ error: -0.00455185746358, 
+ differror: 0.193117454042, 
+ interror: 0.00623331176341, 
+ input_angle: 1.57343317166
+ 
+ current_time: 7.11666809 
+ des_alpha: 1.57079632679, 
+ error: -0.00263684486355, 
+ differror: 0.114900733022, 
+ interror: 0.00359646689986, 
+ input_angle: 1.5723187747
+ 
+ current_time: 7.13333476 
+ des_alpha: 1.4215884707, 
+ error: -0.150730303993, 
+ differror: -8.88560577065, 
+ interror: -0.147133837093, 
+ input_angle: 1.38516465812
+ 
+ current_time: 7.15000143 
+ des_alpha: 1.57079632679, 
+ error: 0.185631668675, 
+ differror: 20.1817143237, 
+ interror: 0.0384978315819, 
+ input_angle: 1.56570740098
+ 
+ current_time: 7.1666681 
+ des_alpha: 1.57079632679, 
+ error: 0.00508892581385, 
+ differror: -10.8325624052, 
+ interror: 0.0435867573957, 
+ input_angle: 1.5855427993
+ 
+ current_time: 7.18333477 
+ des_alpha: 1.57079632679, 
+ error: -0.0147464725071, 
+ differror: -1.19012366123, 
+ interror: 0.0288402848886, 
+ input_angle: 1.58236507376
+ 
+ current_time: 7.20000144 
+ des_alpha: 1.57079632679, 
+ error: -0.0115687469617, 
+ differror: 0.190663494591, 
+ interror: 0.0172715379269, 
+ input_angle: 1.57799823977
+ 
+ current_time: 7.21666811 
+ des_alpha: 1.57079632679, 
+ error: -0.00720191297058, 
+ differror: 0.262009987067, 
+ interror: 0.0100696249563, 
+ input_angle: 1.57504088683
+ 
+ current_time: 7.23333478 
+ des_alpha: 1.57079632679, 
+ error: -0.00424456003176, 
+ differror: 0.177441140841, 
+ interror: 0.00582506492454, 
+ input_angle: 1.57325955552
+ 
+ current_time: 7.25000145 
+ des_alpha: 1.57079632679, 
+ error: -0.00246322872676, 
+ differror: 0.106879856924, 
+ interror: 0.00336183619777, 
+ input_angle: 1.57221929234
+ 
+ current_time: 7.26666812 
+ des_alpha: 1.57079632679, 
+ error: -0.0014229655419, 
+ differror: 0.0624157786089, 
+ interror: 0.00193887065588, 
+ input_angle: 1.57161722808
+ 
+ current_time: 7.28333479 
+ des_alpha: 1.57079632679, 
+ error: -0.000820901283746, 
+ differror: 0.0361238482643, 
+ interror: 0.00111796937213, 
+ input_angle: 1.5712697062
+ 
+ current_time: 7.30000146 
+ des_alpha: 1.57079632679, 
+ error: -0.00047337940862, 
+ differror: 0.0208513083373, 
+ interror: 0.000644589963509, 
+ input_angle: 1.57106927122
+ 
+ current_time: 7.31666813 
+ des_alpha: 1.57079632679, 
+ error: -0.00027294442809, 
+ differror: 0.0120260964266, 
+ interror: 0.000371645535419, 
+ input_angle: 1.57095369718
+ 
+ current_time: 7.3333348 
+ des_alpha: 1.57079632679, 
+ error: -0.000157370380206, 
+ differror: 0.00693444148618, 
+ interror: 0.000214275155213, 
+ input_angle: 1.57088706014
+ 
+ current_time: 7.35000147 
+ des_alpha: 1.57079632679, 
+ error: -9.07333423452e-05, 
+ differror: 0.00399822147199, 
+ interror: 0.000123541812868, 
+ input_angle: 1.57084863976
+ 
+ current_time: 7.36666814 
+ des_alpha: 1.57079632679, 
+ error: -5.23129687384e-05, 
+ differror: 0.00230522195536, 
+ interror: 7.12288441298e-05, 
+ input_angle: 1.57082648819
+ 
+ current_time: 7.38333481 
+ des_alpha: 1.57079632679, 
+ error: -3.01613923193e-05, 
+ differror: 0.00132909431933, 
+ interror: 4.10674518105e-05, 
+ input_angle: 1.57081371654
+ 
+ current_time: 7.40000148 
+ des_alpha: 1.57079632679, 
+ error: -1.73897473656e-05, 
+ differror: 0.000766298543957, 
+ interror: 2.36777044449e-05, 
+ input_angle: 1.57080635297
+ 
+ current_time: 7.41666815 
+ des_alpha: 1.57079632679, 
+ error: -1.00261712923e-05, 
+ differror: 0.000441814476037, 
+ interror: 1.36515331526e-05, 
+ input_angle: 1.57080210745
+ 
+ current_time: 7.43333482 
+ des_alpha: 1.57079632679, 
+ error: -5.78065373258e-06, 
+ differror: 0.000254731002638, 
+ interror: 7.87087942e-06, 
+ input_angle: 1.57079965967
+ 
+ current_time: 7.45000149 
+ des_alpha: 1.57079632679, 
+ error: -3.33287317034e-06, 
+ differror: 0.000146866804361, 
+ interror: 4.53800624967e-06, 
+ input_angle: 1.57079824838
+ 
+ current_time: 7.46666816 
+ des_alpha: 1.57079632679, 
+ error: -1.92158950441e-06, 
+ differror: 8.46770030204e-05, 
+ interror: 2.61641674526e-06, 
+ input_angle: 1.5707974347
+ 
+ current_time: 7.48333483 
+ des_alpha: 1.57079632679, 
+ error: -1.10790481123e-06, 
+ differror: 4.88210718266e-05, 
+ interror: 1.50851193403e-06, 
+ input_angle: 1.57079696556
+ 
+ current_time: 7.5000015 
+ des_alpha: 1.57079632679, 
+ error: -6.38769658057e-07, 
+ differror: 2.81481035605e-05, 
+ interror: 8.69742275977e-07, 
+ input_angle: 1.57079669508
+ 
+ current_time: 7.51666817 
+ des_alpha: 1.57079632679, 
+ error: -3.6828676242e-07, 
+ differror: 1.62289704924e-05, 
+ interror: 5.01455513557e-07, 
+ input_angle: 1.57079653913
+ 
+ current_time: 7.53333484 
+ des_alpha: 1.57079632679, 
+ error: -2.12338105987e-07, 
+ differror: 9.35691751459e-06, 
+ interror: 2.8911740757e-07, 
+ input_angle: 1.57079644922
+ 
+ current_time: 7.55000151 
+ des_alpha: 1.57079632679, 
+ error: -1.22424903326e-07, 
+ differror: 5.3947910807e-06, 
+ interror: 1.66692504244e-07, 
+ input_angle: 1.57079639738
+ 
+ current_time: 7.56666818 
+ des_alpha: 1.57079632679, 
+ error: -7.05848668403e-08, 
+ differror: 3.11040156706e-06, 
+ interror: 9.6107637404e-08, 
+ input_angle: 1.57079636749
+ 
+ current_time: 7.58333485 
+ des_alpha: 1.57079632679, 
+ error: -4.06961597754e-08, 
+ differror: 1.79332206523e-06, 
+ interror: 5.54114776286e-08, 
+ input_angle: 1.57079635026
+ 
+ current_time: 7.60000152 
+ des_alpha: 1.57079632679, 
+ error: -2.34636332586e-08, 
+ differror: 1.03395138422e-06, 
+ interror: 3.194784437e-08, 
+ input_angle: 1.57079634032
+ 
+ current_time: 7.61666819 
+ des_alpha: 1.57079632679, 
+ error: -1.35281088554e-08, 
+ differror: 5.96131344966e-07, 
+ interror: 1.84197355146e-08, 
+ input_angle: 1.57079633459
+ 
+ current_time: 7.63333486 
+ des_alpha: 1.57079632679, 
+ error: -7.79971820464e-09, 
+ differror: 3.43703370302e-07, 
+ interror: 1.062001731e-08, 
+ input_angle: 1.57079633129
+ 
+ current_time: 7.65000153 
+ des_alpha: 1.57079632679, 
+ error: -4.49697790117e-09, 
+ differror: 1.98164378575e-07, 
+ interror: 6.12303940883e-09, 
+ input_angle: 1.57079632939
+ 
+ current_time: 7.6666682 
+ des_alpha: 1.57079632679, 
+ error: -2.592761561e-09, 
+ differror: 1.14252957559e-07, 
+ interror: 3.53027784783e-09, 
+ input_angle: 1.57079632829
+ 
+ current_time: 7.68333487 
+ des_alpha: 1.57079632679, 
+ error: -1.49487333623e-09, 
+ differror: 6.5873280312e-08, 
+ interror: 2.0354045116e-09, 
+ input_angle: 1.57079632766
+ 
+ current_time: 7.70000154 
+ des_alpha: 1.57079632679, 
+ error: -8.61879012604e-10, 
+ differror: 3.79796518215e-08, 
+ interror: 1.173525499e-09, 
+ input_angle: 1.57079632729
+ 
+ current_time: 7.71666821 
+ des_alpha: 1.57079632679, 
+ error: -4.96921837012e-10, 
+ differror: 2.1897426156e-08, 
+ interror: 6.76603661987e-10, 
+ input_angle: 1.57079632708
+ 
+ current_time: 7.73333488 
+ des_alpha: 1.57079632679, 
+ error: -2.86503487601e-10, 
+ differror: 1.26250984396e-08, 
+ interror: 3.90100174386e-10, 
+ input_angle: 1.57079632696
+ 
+ current_time: 7.75000155 
+ des_alpha: 1.57079632679, 
+ error: -1.65185420897e-10, 
+ differror: 7.2790825464e-09, 
+ interror: 2.24914753488e-10, 
+ input_angle: 1.57079632689
+ 
+ current_time: 7.76666822 
+ des_alpha: 1.4215884707, 
+ error: -0.149207856187, 
+ differror: -8.95246957081, 
+ interror: -0.149207855962, 
+ input_angle: 1.38428650674
+ 
+ current_time: 7.78333489 
+ des_alpha: 1.43234142515, 
+ error: 0.048054918415, 
+ differror: 11.835764109, 
+ interror: -0.101152937547, 
+ input_angle: 1.39213240517
+ 
+ current_time: 7.80000156 
+ des_alpha: 1.57079632679, 
+ error: 0.178663921628, 
+ differror: 7.83653862546, 
+ interror: 0.0775109840807, 
+ input_angle: 1.58005877906
+ 
+ current_time: 7.81666823 
+ des_alpha: 1.57079632679, 
+ error: -0.00926245226546, 
+ differror: -11.2755801785, 
+ interror: 0.0682485318152, 
+ input_angle: 1.59560955816
+ 
+ current_time: 7.8333349 
+ des_alpha: 1.57079632679, 
+ error: -0.0248132313619, 
+ differror: -0.933046559175, 
+ interror: 0.0434353004533, 
+ input_angle: 1.58848000509
+ 
+ current_time: 7.85000157 
+ des_alpha: 1.57079632679, 
+ error: -0.0176836782949, 
+ differror: 0.427773098466, 
+ interror: 0.0257516221585, 
+ input_angle: 1.58157776238
+ 
+ current_time: 7.86666824 
+ des_alpha: 1.57079632679, 
+ error: -0.010781435585, 
+ differror: 0.414134479767, 
+ interror: 0.0149701865735, 
+ input_angle: 1.57711403565
+ 
+ current_time: 7.88333491 
+ des_alpha: 1.57079632679, 
+ error: -0.00631770885923, 
+ differror: 0.267823549979, 
+ interror: 0.0086524777143, 
+ input_angle: 1.57445646488
+ 
+ current_time: 7.90000158 
+ des_alpha: 1.57079632679, 
+ error: -0.00366013808593, 
+ differror: 0.159454214507, 
+ interror: 0.00499233962837, 
+ input_angle: 1.57290965947
+ 
+ current_time: 7.91666825 
+ des_alpha: 1.57079632679, 
+ error: -0.00211333267852, 
+ differror: 0.0928083058826, 
+ interror: 0.00287900694985, 
+ input_angle: 1.5720153125
+ 
+ current_time: 7.93333492 
+ des_alpha: 1.57079632679, 
+ error: -0.0012189857003, 
+ differror: 0.0536608079612, 
+ interror: 0.00166002124955, 
+ input_angle: 1.5714992328
+ 
+ current_time: 7.95000159 
+ des_alpha: 1.57079632679, 
+ error: -0.000702906007372, 
+ differror: 0.0309647753827, 
+ interror: 0.000957115242177, 
+ input_angle: 1.57120160773
+ 
+ current_time: 7.96666826 
+ des_alpha: 1.57079632679, 
+ error: -0.000405280935499, 
+ differror: 0.0178575007409, 
+ interror: 0.000551834306678, 
+ input_angle: 1.5710299969
+ 
+ current_time: 7.98333493 
+ des_alpha: 1.57079632679, 
+ error: -0.000233670100887, 
+ differror: 0.0102966480174, 
+ interror: 0.000318164205791, 
+ input_angle: 1.57093105128
+ 
+ current_time: 8.0000016 
+ des_alpha: 1.57079632679, 
+ error: -0.000134724482115, 
+ differror: 0.00593673593895, 
+ interror: 0.000183439723675, 
+ input_angle: 1.57087400315
+ 
+ current_time: 8.01666827 
+ des_alpha: 1.57079632679, 
+ error: -7.76763514978e-05, 
+ differror: 0.00342288715248, 
+ interror: 0.000105763372177, 
+ input_angle: 1.57084111161
+ 
+ current_time: 8.03333494 
+ des_alpha: 1.57079632679, 
+ error: -4.47848154119e-05, 
+ differror: 0.00197349177045, 
+ interror: 6.09785567656e-05, 
+ input_angle: 1.57082214777
+ 
+ current_time: 8.05000161 
+ des_alpha: 1.57079632679, 
+ error: -2.58209764092e-05, 
+ differror: 0.00113783011259, 
+ interror: 3.51575803563e-05, 
+ input_angle: 1.57081121405
+ 
+ current_time: 8.06666828 
+ des_alpha: 1.57079632679, 
+ error: -1.48872507657e-05, 
+ differror: 0.000656023407407, 
+ interror: 2.02703295906e-05, 
+ input_angle: 1.57080491014
+ 
+ current_time: 8.08333495 
+ des_alpha: 1.57079632679, 
+ error: -8.5833404333e-06, 
+ differror: 0.000378234544297, 
+ interror: 1.16869891573e-05, 
+ input_angle: 1.57080127558
+ 
+ current_time: 8.10000162 
+ des_alpha: 1.57079632679, 
+ error: -4.94878024848e-06, 
+ differror: 0.000218073567474, 
+ interror: 6.73820890884e-06, 
+ input_angle: 1.57079918005
+ 
+ current_time: 8.11666829 
+ des_alpha: 1.57079632679, 
+ error: -2.85325114291e-06, 
+ differror: 0.000125731721188, 
+ interror: 3.88495776593e-06, 
+ input_angle: 1.57079797186
+ 
+ current_time: 8.13333496 
+ des_alpha: 1.57079632679, 
+ error: -1.6450603324e-06, 
+ differror: 7.24914341322e-05, 
+ interror: 2.23989743353e-06, 
+ input_angle: 1.57079727527
+ 
+ current_time: 8.15000163 
+ des_alpha: 1.57079632679, 
+ error: -9.48470134876e-07, 
+ differror: 4.17954034924e-05, 
+ interror: 1.29142729866e-06, 
+ input_angle: 1.57079687364
+ 
+ current_time: 8.1666683 
+ des_alpha: 1.57079632679, 
+ error: -5.46846568028e-07, 
+ differror: 2.40974091914e-05, 
+ interror: 7.44580730627e-07, 
+ input_angle: 1.57079664208
+ 
+ current_time: 8.18333497 
+ des_alpha: 1.57079632679, 
+ error: -3.15287912445e-07, 
+ differror: 1.38935165563e-05, 
+ interror: 4.29292818183e-07, 
+ input_angle: 1.57079650858
+ 
+ current_time: 8.20000164 
+ des_alpha: 1.57079632679, 
+ error: -1.81781277586e-07, 
+ differror: 8.01039648943e-06, 
+ interror: 2.47511540596e-07, 
+ input_angle: 1.5707964316
+ 
+ current_time: 8.21666831 
+ des_alpha: 1.57079632679, 
+ error: -1.04807166945e-07, 
+ differror: 4.61844571477e-06, 
+ interror: 1.42704373651e-07, 
+ input_angle: 1.57079638722
+ 
+ current_time: 8.23333498 
+ des_alpha: 1.57079632679, 
+ error: -6.04272474281e-08, 
+ differror: 2.66279463847e-06, 
+ interror: 8.22771262232e-08, 
+ input_angle: 1.57079636163
+ 
+ current_time: 8.25000165 
+ des_alpha: 1.57079632679, 
+ error: -3.48397188876e-08, 
+ differror: 1.53525140538e-06, 
+ interror: 4.74374073356e-08, 
+ input_angle: 1.57079634688
+ 
+ current_time: 8.26666832 
+ des_alpha: 1.57079632679, 
+ error: -2.00870644562e-08, 
+ differror: 8.85159088852e-07, 
+ interror: 2.73503428794e-08, 
+ input_angle: 1.57079633838
+ 
+ current_time: 8.28333499 
+ des_alpha: 1.57079632679, 
+ error: -1.15813263424e-08, 
+ differror: 5.10344184762e-07, 
+ interror: 1.5769016537e-08, 
+ input_angle: 1.57079633347
+ 
+ current_time: 8.30000166 
+ des_alpha: 1.57079632679, 
+ error: -6.6772884999e-09, 
+ differror: 2.942422117e-07, 
+ interror: 9.09172803709e-09, 
+ input_angle: 1.57079633064
+ 
+ current_time: 8.31666833 
+ des_alpha: 1.57079632679, 
+ error: -3.84983356305e-09, 
+ differror: 1.69647262281e-07, 
+ interror: 5.24189447404e-09, 
+ input_angle: 1.57079632901
+ 
+ current_time: 8.333335 
+ des_alpha: 1.57079632679, 
+ error: -2.21964646663e-09, 
+ differror: 9.78112062232e-08, 
+ interror: 3.02224800741e-09, 
+ input_angle: 1.57079632807
+ 
+ current_time: 8.35000167 
+ des_alpha: 1.57079632679, 
+ error: -1.27975141595e-09, 
+ differror: 5.63936917619e-08, 
+ interror: 1.74249659146e-09, 
+ input_angle: 1.57079632753
+ 
+ current_time: 8.36666834 
+ des_alpha: 1.57079632679, 
+ error: -7.37848893095e-10, 
+ differror: 3.25141448685e-08, 
+ interror: 1.00464769837e-09, 
+ input_angle: 1.57079632722
+ 
+ current_time: 8.38333501 
+ des_alpha: 1.57079632679, 
+ error: -4.25411483818e-10, 
+ differror: 1.87462408074e-08, 
+ interror: 5.79236214548e-10, 
+ input_angle: 1.57079632704
+ 
+ current_time: 8.40000168 
+ des_alpha: 1.57079632679, 
+ error: -2.45273801269e-10, 
+ differror: 1.08082587912e-08, 
+ interror: 3.33962413279e-10, 
+ input_angle: 1.57079632694
+ 
+ current_time: 8.41666835 
+ des_alpha: 1.57079632679, 
+ error: -1.41414213672e-10, 
+ differror: 6.2315740095e-09, 
+ interror: 1.92548199607e-10, 
+ input_angle: 1.57079632688
+ 
+ current_time: 8.43333502 
+ des_alpha: 1.57079632679, 
+ error: -8.15332246162e-11, 
+ differror: 3.5928586248e-09, 
+ interror: 1.11014974991e-10, 
+ input_angle: 1.57079632684
+ 
+ current_time: 8.45000169 
+ des_alpha: 1.57079632679, 
+ error: -4.70086192195e-11, 
+ differror: 2.07147590951e-09, 
+ interror: 6.40063557711e-11, 
+ input_angle: 1.57079632682
+ 
+ current_time: 8.46666836 
+ des_alpha: 1.57079632679, 
+ error: -2.71029865218e-11, 
+ differror: 1.194337723e-09, 
+ interror: 3.69033692493e-11, 
+ input_angle: 1.57079632681
+ 
+ current_time: 8.48333503 
+ des_alpha: 1.57079632679, 
+ error: -1.56263890716e-11, 
+ differror: 6.8859570929e-10, 
+ interror: 2.12769801777e-11, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.5000017 
+ des_alpha: 1.57079632679, 
+ error: -9.00968188944e-12, 
+ differror: 3.97002351529e-10, 
+ interror: 1.22672982883e-11, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.51666837 
+ des_alpha: 1.57079632679, 
+ error: -5.19451148762e-12, 
+ differror: 2.28910178327e-10, 
+ interror: 7.07278680068e-12, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.53333504 
+ des_alpha: 1.57079632679, 
+ error: -2.99493763123e-12, 
+ differror: 1.31974404988e-10, 
+ interror: 4.07784916945e-12, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.55000171 
+ des_alpha: 1.57079632679, 
+ error: -1.7268408925e-12, 
+ differror: 7.60857891065e-11, 
+ interror: 2.35100827695e-12, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.56666838 
+ des_alpha: 1.57079632679, 
+ error: -9.95425963879e-13, 
+ differror: 4.38848869404e-11, 
+ interror: 1.35558231307e-12, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.58333505 
+ des_alpha: 1.57079632679, 
+ error: -5.73985303731e-13, 
+ differror: 2.52864345516e-11, 
+ interror: 7.81597009336e-13, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.60000172 
+ des_alpha: 1.57079632679, 
+ error: -3.30846461338e-13, 
+ differror: 1.45883276259e-11, 
+ interror: 4.50750547998e-13, 
+ input_angle: 1.5707963268
+ 
+ current_time: 8.61666839 
+ des_alpha: 1.4215884707, 
+ error: -0.149207856092, 
+ differror: -8.952469575, 
+ interror: -0.149207856091, 
+ input_angle: 1.38428650668
+ 
+ current_time: 8.63333506 
+ des_alpha: 1.48152718369, 
+ error: 0.0972406770098, 
+ differror: 14.7869090287, 
+ interror: -0.0519671790816, 
+ input_angle: 1.45361460331
+ 
+ current_time: 8.65000173 
+ des_alpha: 1.57079632679, 
+ error: 0.117181723484, 
+ differror: 1.19646254917, 
+ interror: 0.0652145444026, 
+ input_angle: 1.58190324499
+ 
+ current_time: 8.6666684 
+ des_alpha: 1.57079632679, 
+ error: -0.0111069181925, 
+ differror: -7.69731696114, 
+ interror: 0.0541076262101, 
+ input_angle: 1.59084468779
+ 
+ current_time: 8.68333507 
+ des_alpha: 1.57079632679, 
+ error: -0.0200483609928, 
+ differror: -0.536486460721, 
+ interror: 0.0340592652173, 
+ input_angle: 1.58472190572
+ 
+ current_time: 8.70000174 
+ des_alpha: 1.57079632679, 
+ error: -0.0139255789254, 
+ differror: 0.367366850574, 
+ interror: 0.020133686292, 
+ input_angle: 1.57923567489
+ 
+ current_time: 8.71666841 
+ des_alpha: 1.49810755251, 
+ error: -0.0811281223764, 
+ differror: -4.03215180063, 
+ interror: -0.0609944360844, 
+ input_angle: 1.48487231212
+ 
+ current_time: 8.73333508 
+ des_alpha: 1.57079632679, 
+ error: 0.0859240146736, 
+ differror: 10.0231262184, 
+ interror: 0.0249295785892, 
+ input_angle: 1.57092927783
+ 
+ current_time: 8.75000175 
+ des_alpha: 1.57079632679, 
+ error: -0.000132951038849, 
+ differror: -5.16341691006, 
+ interror: 0.0247966275503, 
+ input_angle: 1.57948844154
+ 
+ current_time: 8.76666842 
+ des_alpha: 1.57079632679, 
+ error: -0.0086921147465, 
+ differror: -0.513549719749, 
+ interror: 0.0161045128038, 
+ input_angle: 1.57730211775
+ 
+ current_time: 8.78333509 
+ des_alpha: 1.57079632679, 
+ error: -0.00650579095599, 
+ differror: 0.131179401195, 
+ interror: 0.00959872184784, 
+ input_angle: 1.57480645854
+ 
+ current_time: 8.80000176 
+ des_alpha: 1.57079632679, 
+ error: -0.00401013174234, 
+ differror: 0.149739522871, 
+ interror: 0.00558859010549, 
+ input_angle: 1.57315334651
+ 
+ current_time: 8.81666843 
+ des_alpha: 1.57079632679, 
+ error: -0.00235701971116, 
+ differror: 0.0991867020337, 
+ interror: 0.00323157039434, 
+ input_angle: 1.5721630784
+ 
+ current_time: 8.8333351 
+ des_alpha: 1.57079632679, 
+ error: -0.00136675160913, 
+ differror: 0.0594160742382, 
+ interror: 0.0018648187852, 
+ input_angle: 1.57158568853
+ 
+ current_time: 8.85000177 
+ des_alpha: 1.57079632679, 
+ error: -0.000789361735735, 
+ differror: 0.0346433854753, 
+ interror: 0.00107545704947, 
+ input_angle: 1.57125167294
+ 
+ current_time: 8.86666844 
+ des_alpha: 1.41565814131, 
+ error: -0.155593531623, 
+ differror: -9.28824833561, 
+ interror: -0.154518074574, 
+ input_angle: 1.37713616837
+ 
+ current_time: 8.88333511 
+ des_alpha: 1.57079632679, 
+ error: 0.193660158421, 
+ differror: 20.9552172116, 
+ interror: 0.0391420838471, 
+ input_angle: 1.5651300403
+ 
+ current_time: 8.90000178 
+ des_alpha: 1.43938957957, 
+ error: -0.125740460729, 
+ differror: -19.1640333162, 
+ interror: -0.086598376882, 
+ input_angle: 1.42165419373
+ 
+ current_time: 8.91666845 
+ des_alpha: 1.57079632679, 
+ error: 0.149142133061, 
+ differror: 16.4929523288, 
+ interror: 0.0625437561785, 
+ input_angle: 1.57777242815
+ 
+ current_time: 8.93333512 
+ des_alpha: 1.57079632679, 
+ error: -0.00697610135643, 
+ differror: -9.3670921916, 
+ interror: 0.0555676548221, 
+ input_angle: 1.59094261612
+ 
+ current_time: 8.95000179 
+ des_alpha: 1.57079632679, 
+ error: -0.0201462893234, 
+ differror: -0.790211119974, 
+ interror: 0.0354213654987, 
+ input_angle: 1.58520843365
+ 
+ current_time: 8.96666846 
+ des_alpha: 1.57079632679, 
+ error: -0.0144121068569, 
+ differror: 0.344050879179, 
+ interror: 0.0210092586418, 
+ input_angle: 1.57959077801
+ 
+ current_time: 8.98333513 
+ des_alpha: 1.57079632679, 
+ error: -0.00879445121033, 
+ differror: 0.337059271382, 
+ interror: 0.0122148074315, 
+ input_angle: 1.57595095452
+ 
+ current_time: 9.0000018 
+ des_alpha: 1.57079632679, 
+ error: -0.00515462772206, 
+ differror: 0.218389365618, 
+ interror: 0.00706017970944, 
+ input_angle: 1.57378285247
+ 
+ current_time: 9.01666847 
+ des_alpha: 1.57079632679, 
+ error: -0.00298652567051, 
+ differror: 0.130086097076, 
+ interror: 0.00407365403893, 
+ input_angle: 1.57252075828
+ 
+ current_time: 9.03333514 
+ des_alpha: 1.57079632679, 
+ error: -0.00172443148068, 
+ differror: 0.0757256362449, 
+ interror: 0.00234922255825, 
+ input_angle: 1.57179099784
+ 
+ current_time: 9.05000181 
+ des_alpha: 1.57079632679, 
+ error: -0.000994671043457, 
+ differror: 0.0437856174761, 
+ interror: 0.0013545515148, 
+ input_angle: 1.57136988693
+ 
+ current_time: 9.06666848 
+ des_alpha: 1.57079632679, 
+ error: -0.000573560134525, 
+ differror: 0.0252666494826, 
+ interror: 0.000780991380273, 
+ input_angle: 1.57112702979
+ 
+ current_time: 9.08333515 
+ des_alpha: 1.41565814131, 
+ error: -0.155468888479, 
+ differror: -9.29371784193, 
+ interror: -0.154687897099, 
+ input_angle: 1.37706426618
+ 
+ current_time: 9.10000182 
+ des_alpha: 1.57079632679, 
+ error: 0.193732060619, 
+ differror: 20.9520527555, 
+ interror: 0.0390441635204, 
+ input_angle: 1.56508857797
+ 
+ current_time: 9.11666849 
+ des_alpha: 1.57079632679, 
+ error: 0.00570774882978, 
+ differror: -11.2814564511, 
+ interror: 0.0447519123502, 
+ input_angle: 1.58588872123
+ 
+ current_time: 9.13333516 
+ des_alpha: 1.57079632679, 
+ error: -0.0150923944396, 
+ differror: -1.24800834656, 
+ interror: 0.0296595179106, 
+ input_angle: 1.58268639751
+ 
+ current_time: 9.15000183 
+ des_alpha: 1.57079632679, 
+ error: -0.0118900707127, 
+ differror: 0.192139385187, 
+ interror: 0.0177694471979, 
+ input_angle: 1.57820464039
+ 
+ current_time: 9.1666685 
+ des_alpha: 1.57079632679, 
+ error: -0.00740831359054, 
+ differror: 0.268905373547, 
+ interror: 0.0103611336074, 
+ input_angle: 1.57516355492
+ 
+ current_time: 9.18333517 
+ des_alpha: 1.57079632679, 
+ error: -0.00436722812164, 
+ differror: 0.182465091641, 
+ interror: 0.00599390548575, 
+ input_angle: 1.57333091653
+ 
+ current_time: 9.20000184 
+ des_alpha: 1.57079632679, 
+ error: -0.00253458973218, 
+ differror: 0.109958281376, 
+ interror: 0.00345931575357, 
+ input_angle: 1.57226054628
+ 
+ current_time: 9.21666851 
+ des_alpha: 1.57079632679, 
+ error: -0.00146421948697, 
+ differror: 0.0642222018681, 
+ interror: 0.0019950962666, 
+ input_angle: 1.57164103244
+ 
+ current_time: 9.23333518 
+ des_alpha: 1.57079632679, 
+ error: -0.000844705642008, 
+ differror: 0.0371708232634, 
+ interror: 0.0011503906246, 
+ input_angle: 1.57128343408
+ 
+ current_time: 9.25000185 
+ des_alpha: 1.57079632679, 
+ error: -0.000487107282809, 
+ differror: 0.0214558972608, 
+ interror: 0.000663283341787, 
+ input_angle: 1.57107718669
+ 
+ current_time: 9.26666852 
+ des_alpha: 1.57079632679, 
+ error: -0.000280859897906, 
+ differror: 0.0123748406192, 
+ interror: 0.00038242344388, 
+ input_angle: 1.57095826099
+ 
+ current_time: 9.28333519 
+ des_alpha: 1.57079632679, 
+ error: -0.000161934195149, 
+ differror: 0.00713554073835, 
+ interror: 0.000220489248732, 
+ input_angle: 1.57088969145
+ 
+ current_time: 9.30000186 
+ des_alpha: 1.57079632679, 
+ error: -9.33646565708e-05, 
+ differror: 0.00411417149183, 
+ interror: 0.000127124592161, 
+ input_angle: 1.57085015687
+ 
+ current_time: 9.31666853 
+ des_alpha: 1.57079632679, 
+ error: -5.38300729134e-05, 
+ differror: 0.00237207454503, 
+ interror: 7.32945192474e-05, 
+ input_angle: 1.57082736288
+ 
+ current_time: 9.3333352 
+ des_alpha: 1.57079632679, 
+ error: -3.10360890279e-05, 
+ differror: 0.0013676387596, 
+ interror: 4.22584302195e-05, 
+ input_angle: 1.57081422085
+ 
+ current_time: 9.35000187 
+ des_alpha: 1.57079632679, 
+ error: -1.78940594797e-05, 
+ differror: 0.000788521615185, 
+ interror: 2.43643707398e-05, 
+ input_angle: 1.57080664373
+ 
+ current_time: 9.36666854 
+ des_alpha: 1.57079632679, 
+ error: -1.03169357069e-05, 
+ differror: 0.000454627335446, 
+ interror: 1.4047435033e-05, 
+ input_angle: 1.57080227509
+ 
+ current_time: 9.38333521 
+ des_alpha: 1.57079632679, 
+ error: -5.94829583234e-06, 
+ differror: 0.000262118340047, 
+ interror: 8.09913920063e-06, 
+ input_angle: 1.57079975632
+ 
+ current_time: 9.40000188 
+ des_alpha: 1.57079632679, 
+ error: -3.42952830334e-06, 
+ differror: 0.000151126021514, 
+ interror: 4.66961089729e-06, 
+ input_angle: 1.57079830411
+ 
+ current_time: 9.41666855 
+ des_alpha: 1.57079632679, 
+ error: -1.97731664442e-06, 
+ differror: 8.7132682109e-05, 
+ interror: 2.69229425287e-06, 
+ input_angle: 1.57079746683
+ 
+ current_time: 9.43333522 
+ des_alpha: 1.57079632679, 
+ error: -1.1400346529e-06, 
+ differror: 5.02369094436e-05, 
+ interror: 1.55225959997e-06, 
+ input_angle: 1.57079698409
+ 
+ current_time: 9.45000189 
+ des_alpha: 1.57079632679, 
+ error: -6.5729432519e-07, 
+ differror: 2.89644138698e-05, 
+ interror: 8.94965274778e-07, 
+ input_angle: 1.57079670576
+ 
+ current_time: 9.46666856 
+ des_alpha: 1.57079632679, 
+ error: -3.78967278669e-07, 
+ differror: 1.66996194513e-05, 
+ interror: 5.15997996109e-07, 
+ input_angle: 1.57079654529
+ 
+ current_time: 9.48333523 
+ des_alpha: 1.57623327028, 
+ error: 0.00543672499363, 
+ differror: 0.32622617241, 
+ interror: 0.00543724099163, 
+ input_angle: 1.57759263213
+ 
+ current_time: 9.5000019 
+ des_alpha: 1.57079632679, 
+ error: -0.00679630533737, 
+ differror: -0.733981673064, 
+ interror: -0.00135906434574, 
+ input_angle: 1.57100028481
+ 
+ current_time: 9.51666857 
+ des_alpha: 1.57079632679, 
+ error: -0.000203958012729, 
+ differror: 0.39554076037, 
+ interror: -0.00156302235847, 
+ input_angle: 1.57026966477
+ 
+ current_time: 9.53333524 
+ des_alpha: 1.4215884707, 
+ error: -0.148681194068, 
+ differror: -8.90863238156, 
+ interror: -0.150244216426, 
+ input_angle: 1.38387111436
+ 
+ current_time: 9.55000191 
+ des_alpha: 1.39364979299, 
+ error: 0.00977867863415, 
+ differror: 9.50759046058, 
+ interror: -0.140465537792, 
+ input_angle: 1.3435089869
+ 
+ current_time: 9.56666858 
+ des_alpha: 1.57079632679, 
+ error: 0.22728733989, 
+ differror: 13.0505170653, 
+ interror: 0.0868218020986, 
+ input_angle: 1.57845522354
+ 
+ current_time: 9.58333525 
+ des_alpha: 1.57079632679, 
+ error: -0.00765889674547, 
+ differror: -14.0967713788, 
+ interror: 0.0791629053532, 
+ input_angle: 1.59926923334
+ 
+ current_time: 9.60000192 
+ des_alpha: 1.57079632679, 
+ error: -0.0284729065482, 
+ differror: -1.24884033839, 
+ interror: 0.050689998805, 
+ input_angle: 1.59138511703
+ 
+ current_time: 9.61666859 
+ des_alpha: 1.57079632679, 
+ error: -0.0205887902366, 
+ differror: 0.473046884086, 
+ interror: 0.0301012085684, 
+ input_angle: 1.58339062882
+ 
+ current_time: 9.63333526 
+ des_alpha: 1.57079632679, 
+ error: -0.0125943020226, 
+ differror: 0.479669196904, 
+ interror: 0.0175069065458, 
+ input_angle: 1.57818317429
+ 
+ current_time: 9.65000193 
+ des_alpha: 1.57079632679, 
+ error: -0.0073868474933, 
+ differror: 0.312447209269, 
+ interror: 0.0101200590525, 
+ input_angle: 1.57507703221
+ 
+ current_time: 9.6666686 
+ des_alpha: 1.57079632679, 
+ error: -0.00428070541771, 
+ differror: 0.186368487261, 
+ interror: 0.00583935363481, 
+ input_angle: 1.57326817111
+ 
+ current_time: 9.68333527 
+ des_alpha: 1.57079632679, 
+ error: -0.00247184431396, 
+ differror: 0.108531644519, 
+ interror: 0.00336750932086, 
+ input_angle: 1.57222213949
+ 
+ current_time: 9.70000194 
+ des_alpha: 1.57079632679, 
+ error: -0.0014258126937, 
+ differror: 0.0627618846633, 
+ interror: 0.00194169662716, 
+ input_angle: 1.57161850188
+ 
+ current_time: 9.71666861 
+ des_alpha: 1.41565814131, 
+ error: -0.155960360571, 
+ differror: -9.27207101825, 
+ interror: -0.154018663944, 
+ input_angle: 1.37734764499
+ 
+ current_time: 9.73333528 
+ des_alpha: 1.5042969635, 
+ error: 0.126949318506, 
+ differror: 16.9745773497, 
+ interror: -0.027069345438, 
+ input_angle: 1.48212776074
+ 
+ current_time: 9.75000195 
+ des_alpha: 1.57079632679, 
+ error: 0.0886685660536, 
+ differror: -2.29684468779, 
+ interror: 0.0615992206156, 
+ input_angle: 1.5834891974
+ 
+ current_time: 9.76666862 
+ des_alpha: 1.57079632679, 
+ error: -0.0126928706101, 
+ differror: -6.08168498348, 
+ interror: 0.0489063500055, 
+ input_angle: 1.58918283636
+ 
+ current_time: 9.78333529 
+ des_alpha: 1.57079632679, 
+ error: -0.0183865095629, 
+ differror: -0.341618268846, 
+ interror: 0.0305198404426, 
+ input_angle: 1.58331692191
+ 
+ current_time: 9.80000196 
+ des_alpha: 1.57079632679, 
+ error: -0.0125205951112, 
+ differror: 0.351954796714, 
+ interror: 0.0179992453314, 
+ input_angle: 1.57834812217
+ 
+ current_time: 9.81666863 
+ des_alpha: 1.57079632679, 
+ error: -0.0075517953771, 
+ differror: 0.29812792442, 
+ interror: 0.0104474499543, 
+ input_angle: 1.57520811382
+ 
+ current_time: 9.8333353 
+ des_alpha: 1.57079632679, 
+ error: -0.0044117870217, 
+ differror: 0.188400463643, 
+ interror: 0.00603566293257, 
+ input_angle: 1.57334998752
+ 
+ current_time: 9.85000197 
+ des_alpha: 1.57079632679, 
+ error: -0.00255366072857, 
+ differror: 0.111487555291, 
+ interror: 0.003482002204, 
+ input_angle: 1.57227039364
+ 
+ current_time: 9.86666864 
+ des_alpha: 1.57079632679, 
+ error: -0.00147406684426, 
+ differror: 0.0647756201036, 
+ interror: 0.00200793535974, 
+ input_angle: 1.57164651086
+ 
+ current_time: 9.88333531 
+ des_alpha: 1.57079632679, 
+ error: -0.000850184060335, 
+ differror: 0.0374329595486, 
+ interror: 0.00115775129941, 
+ input_angle: 1.57128655816
+ 
+ current_time: 9.90000198 
+ des_alpha: 1.57079632679, 
+ error: -0.000490231360826, 
+ differror: 0.0215971576511, 
+ interror: 0.000667519938581, 
+ input_angle: 1.57107898191
+ 
+ current_time: 9.91666865 
+ des_alpha: 1.57079632679, 
+ error: -0.000282655114586, 
+ differror: 0.0124545722835, 
+ interror: 0.000384864823995, 
+ input_angle: 1.57095929499
+ 
+ current_time: 9.93333532 
+ des_alpha: 1.57079632679, 
+ error: -0.000162968199857, 
+ differror: 0.0071812134475, 
+ interror: 0.000221896624138, 
+ input_angle: 1.57089028743
+ 
+ current_time: 9.95000199 
+ des_alpha: 1.57079632679, 
+ error: -9.3960638434e-05, 
+ differror: 0.00414045285727, 
+ interror: 0.000127935985704, 
+ input_angle: 1.57085050045
+ 
+ current_time: 9.96666866 
+ des_alpha: 1.57079632679, 
+ error: -5.41736588398e-05, 
+ differror: 0.00238721829821, 
+ interror: 7.37623268643e-05, 
+ input_angle: 1.57082756098
+ 
+ current_time: 9.98333533 
+ des_alpha: 1.57079632679, 
+ error: -3.12341802864e-05, 
+ differror: 0.00137636843793, 
+ interror: 4.25281465779e-05, 
+ input_angle: 1.57081433506
+ 
+ current_time: 10.000002 
+ des_alpha: 1.57079632679, 
+ error: -1.80082693308e-05, 
+ differror: 0.000793554498621, 
+ interror: 2.45198772471e-05, 
+ input_angle: 1.57080670958
