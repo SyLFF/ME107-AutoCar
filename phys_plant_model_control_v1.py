@@ -82,7 +82,7 @@ rangle = np.pi/2+np.pi/6+0.25
 c_alpha = Map(25,lbase,rbase,langle,rangle)  # Initial car-heading, set at straight ahead, 90 degrees
 interror = 0
 # Gain
-Kp = 1.2 # used to be 1
+Kp = 1.4 # used to be 1
 Kd = 0  # used to be 120
 Ki = 0
 # Parameters that may end up being tuned
@@ -96,9 +96,9 @@ while(start_time<200):
     start_time += 1
     raw_vals = ser.readline()
     time.sleep(SampleTime)
-motor.setSpeed(45)
+motor.setSpeed(38)
 
-while(tot_time < 750):
+while(tot_time < 600):
     tot_time += 1
     raw_vals = ser.readline()
     split_vals = raw_vals.split(',')
