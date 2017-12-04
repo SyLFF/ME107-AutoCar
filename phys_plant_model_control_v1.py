@@ -84,7 +84,7 @@ interror = 0
 # Gain
 Kp = 0.9 # used to be 1
 Kd = 0  # used to be 120
-Ki = 0
+Ki = 0.2
 # Parameters that may end up being tuned
 sens_dist = 3
 prevError = 0
@@ -96,7 +96,7 @@ while(start_time<200):
     start_time += 1
     raw_vals = ser.readline()
     time.sleep(SampleTime)
-motor.setSpeed(45)
+motor.setSpeed(49)
 
 while(tot_time < 600):
     tot_time += 1
